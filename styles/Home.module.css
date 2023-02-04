@@ -316,3 +316,12 @@
     justify-content: stretch;
     margin-bottom: 120px;
 }
+
+.contactusgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 50px;
+}
