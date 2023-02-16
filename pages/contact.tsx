@@ -21,25 +21,24 @@ export default function Contact() {
                         </div>
                     </div>
                 </section>
-
                 <section className={styles.aboutserveicessection}>
-                    <div>
+                    <div className={styles.ContactGridContainer}>
                         <div className={styles.contactusgrid}>
                             <div className={styles.contacusformwrap}>
-                                <div>
+                                <div className={styles.contactustextdiv}>
                                     <h2>Contact us</h2>
-                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life 
+                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
                                         One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
                                     </p>
                                 </div>
-                                <form action="/">
-                                    <label htmlFor="fname">NAME</label><br />
-                                    <input type="text" id="fname" name="fname" placeholder="Enter your name" /><br />
-                                    <label htmlFor="lname">EMAIL ADDRESS</label><br />
-                                    <input type="text" id="email" name="email" placeholder="Enter your email" />
-                                    <label htmlFor="lname">EMAIL ADDRESS</label><br />
-                                    <textarea id="message" name="message" placeholder="Hi there, I'm reaching out because I think we can collaborate…" /><br/><br/>
-                                    <input type="submit" value="Submit"  className={styles.ctabutton}/>
+                                <form action="/" className={styles.contactform}>
+                                    <label htmlFor="fname" className={styles.contanctformlabel}>NAME</label>
+                                    <input type="text" id="fname" name="fname" placeholder="Enter your name" className={styles.contanctforminput} />
+                                    <label htmlFor="email" className={styles.contanctformlabel}>EMAIL ADDRESS</label>
+                                    <input type="text" id="email" name="email" placeholder="Enter your email" className={styles.contanctforminput} />
+                                    <label htmlFor="message" className={styles.contanctformlabel}>MESSAGE</label>
+                                    <textarea id="message" name="message" placeholder="Hi there, I'm reaching out because I think we can collaborate…" className={styles.contanctforminput} />
+                                    <input type="submit" value="Submit" className={styles.contactformbutton} />
                                 </form>
                             </div>
                             <div>
@@ -47,7 +46,6 @@ export default function Contact() {
                                     <p>Our offices </p>
                                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                                 </div>
-                                
                                 <div>
                                     <p>OUR OFFICE</p>
                                     <p>908 Broadway, San Francisco,CA 94133</p>
@@ -64,18 +62,58 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-
                 </section>
-
-                <section>
-
+                <section className={styles.MapSection}>
+                    <div className={styles.MapDiv}>
+                        <h1>Put the map here</h1>
+                    </div>
                 </section>
-
-                <section>
-                    
+                <section className={styles.OurServicesSection}>
+                    <div className={styles.OurServicesContainer}>
+                        <div>
+                            <p>What we are best at</p>
+                            <h2>Our Services</h2>
+                        </div>
+                        <div className={styles.OurServicesGrid}>
+                            <div className={styles.OurServicesGridChild}>
+                                <img src="/incons/Icon_1.svg" alt="photo" />
+                                <div>
+                                    <p>Amanda Peterson</p>
+                                    <p>CEO</p>
+                                </div>
+                                <div className={styles.DividerGrid}></div>
+                                <div>
+                                    <p>ceo@business.com</p>
+                                    <p>01 (650) 658 6823</p>
+                                </div>
+                            </div>
+                            <div className={styles.OurServicesGridChild}>
+                                <img src="/incons/Icon_1.svg" alt="" />
+                                <div>
+                                    <p>Jason Smith</p>
+                                    <p>CTO</p>
+                                </div>
+                                <div className={styles.DividerGrid}></div>
+                                <div>
+                                    <p>cto@business.com</p>
+                                    <p>01 (650) 658 6824</p>
+                                </div>
+                            </div>
+                            <div className={styles.OurServicesGridChild}>
+                                <img src="/incons/Icon_1.svg" alt="" />
+                                <div>
+                                    <p>Michael Fassbender</p>
+                                    <p>Design Director</p>
+                                </div>
+                                <div className={styles.DividerGrid}></div>
+                                <div>
+                                    <p>cto@business.com</p>
+                                    <p>01 (650) 658 6824</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
-
-
                 <CallToAction />
                 <Footer />
             </main>
