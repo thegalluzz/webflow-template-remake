@@ -11,7 +11,7 @@ export default function Navbar() {
                 <div className={styles.menu}>
                     <div className={styles.navigationitems}>
                         <Link href='/about' className={styles.navigationitem}>ABOUT</Link>
-                        <Link href='/work' className={styles.navigationitem}>WORK</Link>
+                        <Link href='/projects' className={styles.navigationitem}>WORK</Link>
                         <Link href='/team' className={styles.navigationitem}>TEAM</Link>
                         <Link href='/blog' className={styles.navigationitem}>BLOG</Link>
                         <Link href='/contact' className={styles.navigationitem}>CONTACT</Link>
