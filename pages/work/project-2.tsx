@@ -13,7 +13,70 @@ export default function ProjectTwo() {
                 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
             </Head>
             <main className={styles.main}>
-                <Navbar />
+            <Navbar />
+                <section className={styles.headersection}>
+                    <div className={styles.IntroHeaderProjectTwo}>
+                        <div className={styles.IntroContentProject}>
+                            <div className={styles.IntroTextProject}>
+                                <h1 className={styles.HeadingJumboProject}>Project #2</h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className={styles.ProjectDescritionSection}>
+                    <div className={styles.ProjectDescritionContainer}>
+                        <div className={styles.ProjectDescritionGrid}>
+                            <div>
+                                <div>
+                                    <p>DESCRIPTION</p>
+                                    <p>
+                                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                        Separated they live in Bookmarksgrove right at the coast.
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>WHEN</p>
+                                    <p>January 2017</p>
+                                </div>
+                                <div>
+                                    <p>WHO</p>
+                                    <p>
+                                        Jason Davis, John Anderson, Mirco Cattabriga, Aaron Jones, Amanda Johnson, Steve McQueen
+                                    </p>
+                                </div>
+                            </div>
+                            <p>
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                                A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                                It is a paradisematic country, in which roasted parts of sentences fly into your mouth. <br /><br />
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                                A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                                It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<br /><br />
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div className={styles.ProjectDescritionContainer}>
+                        <div className={styles.ProjectDescritionImageDiv}>
+                            <img src="/portfolio/portfolio2.svg" alt="" className={styles.PortfolioSVG} />
+                        </div>
+
+                        <div className={styles.ProjectDescritionImageDiv}>
+                            <img src="/portfolio/portfolio1.svg" alt="" className={styles.PortfolioSVG} />
+                        </div>
+
+                        <div className={styles.ProjectDescritionImageDiv}>
+                            <img src="/portfolio/portfolio3.svg" alt="" className={styles.PortfolioSVG} />
+                        </div>
+                    </div>
+                </section>
                 <CallToAction />
                 <Footer />
             </main>
