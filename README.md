@@ -1,4 +1,4 @@
-##Why
+## Why
 
 Used webflow a few times in the past. I thought reimplementing the classic webflow business template and adding some features would be a fun excercise to play around with Nex.js
 
