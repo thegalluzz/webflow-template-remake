@@ -1,5 +1,5 @@
+import Link from 'next/link'
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/navbar'
@@ -25,7 +25,7 @@ export default function Home() {
               <div className={styles.introtext}>
                 <h1 className={styles.headingjumbo}>Grow your business.</h1>
                 <p className={styles.headingparagraph}>Give your business a boost with a beautifully crafted homepage.</p>
-                <button className={styles.headingbutton}>LEARN MORE</button>
+                <Link href="/about"><button className={styles.headingbutton}>LEARN MORE</button></Link>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Home() {
                       Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper gravida tellus ut consequat.
                     </p>
                   </div>
-                  <button className={styles.mainbutton}>LEARN MORE</button>
+                  <Link href="/about"><button className={styles.mainbutton}>LEARN MORE</button></Link>
                 </div>
                 <img src='placeholder-3.svg' className={styles.gridchild} />
               </div>
@@ -61,7 +61,7 @@ export default function Home() {
                       Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper gravida tellus ut consequat.
                     </p>
                   </div>
-                  <button className={styles.mainbutton}>LEARN MORE</button>
+                  <Link href="/team"><button className={styles.mainbutton}>LEARN MORE</button></Link>
                 </div>
               </div>
             </div>

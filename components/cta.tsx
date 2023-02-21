@@ -1,4 +1,5 @@
 import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
 export default function CallToAction() {
     return (
@@ -13,7 +14,7 @@ export default function CallToAction() {
                         </text>
                     </div>
                     <div>
-                        <button className={styles.ctabutton}>START NOW</button>
+                        <Link href="/contact"><button className={styles.ctabutton}>START NOW</button></Link>
                     </div>
                 </div>
             </div>
