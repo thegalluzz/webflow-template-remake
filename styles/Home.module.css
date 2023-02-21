@@ -567,3 +567,37 @@
 .ProjectDescritionImageDiv {
     margin-bottom: 30px;
 }
+
+.BlogSection {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.BlogTextDiv {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.BlogContainer {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1a1b1f;
+    font-size: 16px;
+}
+
+.BlogDescription{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.BlogDivCard{
+    margin-top: 10px;
+    margin-bottom: 10px ;
+}
