@@ -17,7 +17,7 @@ export default function Navbar() {
                         <Link href='/contact' className={styles.navigationitem}>CONTACT</Link>
                     </div>
                 </div>
-                <button className={styles.mainbutton}>CONTACT US</button>
+                <Link href='mailto:example@example.com'><button className={styles.mainbutton} >CONTACT US</button></Link>
             </div>
         </nav>
     )
