@@ -210,21 +210,29 @@
     padding: 50px;
 }
 
-.ctaWrapper {
-    background-color: #f4f4f4;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+.CtaSection {
     margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #f4f4f4;
 }
 
-.introdiv {
+.CtaContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1140px;
+}
+
+.ctaWrapper {
+    display: flex;
+    padding-top: 110px;
+    padding-bottom: 120px;
+    justify-content: center;
+    align-content: center;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .introtext {
@@ -233,6 +241,7 @@
 }
 
 .footer {
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -343,12 +352,12 @@
     padding-left: 50px;
     padding-right: 50px;
     border: 1px solid #e5e5e5;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .contactustextdiv {
     margin-bottom: 40px;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .contactform {
@@ -556,7 +565,6 @@
 .ProjectDescritionSection {
     margin-left: 30px;
     margin-right: 30px;
-    ;
 }
 
 .ProjectDescritionContainer {
