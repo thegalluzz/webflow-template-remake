@@ -1,627 +1,634 @@
 .main {
-    background-color: white;
-    font-family: Montserrat, sans-serif;
+  background-color: white;
+  font-family: Montserrat, sans-serif;
 }
 
 .navbar {
-    background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .navbarwrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navigationitems {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navigationitem {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 9px;
-    margin-bottom: 9px;
-    color: #1a1b1f;
-    opacity: 60%;
-    text-decoration-line: none;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  color: #1a1b1f;
+  opacity: 60%;
+  text-decoration-line: none;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .navigationitem:hover {
-    opacity: 100%;
+  opacity: 100%;
 }
 
 .mainbutton {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: black;
-    border: none;
-    color: white;
-    margin-right: 30px;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: black;
+  border: none;
+  color: white;
+  margin-right: 30px;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 1px;
 }
 
 .mainbutton:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .navlogo {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .headersection {
-    margin-left: 30px;
-    margin-right: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .introheader {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    width: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: auto;
 
-    height: 620px;
-    background-image: url("/portfolio2-wide.svg");
-    margin-bottom: 100px;
+  height: 620px;
+  background-image: url("/portfolio2-wide.svg");
+  margin-bottom: 100px;
 }
 
 .introcontent {
-    margin-top: 180px;
-    width: 70%;
-    max-width: 1140px;
-    height: auto;
+  margin-top: 180px;
+  width: 70%;
+  max-width: 1140px;
+  height: auto;
 }
 
 .introtext {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .headingjumbo {
-    color: white;
-    font-size: 64px;
-    font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  color: white;
+  font-size: 64px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.HeadingJumboSmall {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: 400
 }
 
 .headingparagraph {
-    font-size: 20px;
-    color: white;
-    opacity: 60%;
-    margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+  opacity: 60%;
+  margin-bottom: 10px;
 }
 
 .headingbutton {
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 30px;
-    border: none;
-    background-color: white;
-    color: black;
-    font-family: Montserrat, sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    letter-spacing: 2px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 2px;
 }
 
 .headingbutton:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .introcontainer {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 1140px;
-    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1140px;
+  text-align: center;
 }
 
 .mottowrap {
-    margin-right: auto;
-    margin-left: auto;
-    width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
 }
 
 .mottolabel {
-    opacity: 60%;
-    margin-top: 10px;
-    margin-bottom: 15px;
+  opacity: 60%;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .divider {
-    margin-top: 60px;
-    height: 1px;
-    background-color: grey;
-    opacity: 20%;
+  margin-top: 60px;
+  height: 1px;
+  background-color: grey;
+  opacity: 20%;
 }
 
 .homecontentwrap {
-    margin-top: 80px;
-    margin-bottom: 120px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .aboutgrid {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    align-content: stretch;
-    justify-content: stretch;
-    width: auto;
-    height: auto;
-    margin-bottom: 80px;
-    grid-template-columns: 1fr 2fr;
-    gap: 80px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  align-content: stretch;
+  justify-content: stretch;
+  width: auto;
+  height: auto;
+  margin-bottom: 80px;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
 }
 
 .gridchild {
-    text-align: left;
-    width: 100%;
+  text-align: left;
+  width: 100%;
 }
 
 .aboutgrid2 {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    align-content: stretch;
-    justify-content: stretch;
-    width: auto;
-    height: auto;
-    margin-bottom: 80px;
-    grid-template-columns: 2fr 1fr;
-    gap: 80px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  align-content: stretch;
+  justify-content: stretch;
+  width: auto;
+  height: auto;
+  margin-bottom: 80px;
+  grid-template-columns: 2fr 1fr;
+  gap: 80px;
 }
 
 .blogheading {
-    text-align: center;
+  text-align: center;
 }
 
 .collectionwrapper {
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    margin-left: 400px;
-    margin-right: 400px;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 .colelctionblog {
-    padding: 50px;
+  padding: 50px;
 }
 
 .CtaSection {
-    margin-top: 100px;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
-    background-color: #f4f4f4;
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #f4f4f4;
 }
 
 .CtaContainer {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1140px;
 }
 
 .ctaWrapper {
-    display: flex;
-    padding-top: 110px;
-    padding-bottom: 120px;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+  display: flex;
+  padding-top: 110px;
+  padding-bottom: 120px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 .introtext {
-    color: black;
-    padding-bottom: 30px;
+  color: black;
+  padding-bottom: 30px;
 }
 
 .footer {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .footerConentWrapper {
-    text-align: center;
+  text-align: center;
 }
 
 .ctabutton {
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    background-color: black;
-    border: none;
-    color: white;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 1px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 1px;
 }
 
 .ctabutton:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .privacypolicy {
-    text-align: center;
-    color: black;
-    font-size: small;
-    text-decoration-line: none;
-    opacity: 60%;
+  text-align: center;
+  color: black;
+  font-size: small;
+  text-decoration-line: none;
+  opacity: 60%;
 }
 
 .privacypolicysection {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .aboutoheader {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-    height: 620px;
-    background-color: black;
-    margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 620px;
+  background-color: black;
+  margin-bottom: 100px;
 }
 
 .aboutcontainer {
-    text-align: center;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .aboutserveicessection {
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 40px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
 }
 
 .aboutserveicescontainer {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 1140px;
-    color: #1a1b1f;
-    font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1140px;
+  color: #1a1b1f;
+  font-size: 16px;
 }
 
 .aboutsectionheadingwrap {
-    /*padding-top: 50px;*/
-    /*padding-bottom: 80px;*/
-    padding-left: 50px;
-    padding-right: 50px;
+  /*padding-top: 50px;*/
+  /*padding-bottom: 80px;*/
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .servicsegrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: left;
-    align-items: stretch;
-    justify-items: stretch;
-    align-content: stretch;
-    justify-content: stretch;
-    margin-bottom: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: left;
+  align-items: stretch;
+  justify-items: stretch;
+  align-content: stretch;
+  justify-content: stretch;
+  margin-bottom: 120px;
 }
 
 .ContactGridContainer {
-    margin-top: 100px;
-    margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .contactusgrid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    text-align: left;
-    padding-left: 300px;
-    padding-right: 300px;
-    gap: 50px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  text-align: left;
+  padding-left: 300px;
+  padding-right: 300px;
+  gap: 50px;
 }
 
 .contacusformwrap {
-    padding-top: 40px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border: 1px solid #e5e5e5;
-    max-width: 100%;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 1px solid #e5e5e5;
+  max-width: 100%;
 }
 
 .contactustextdiv {
-    margin-bottom: 40px;
-    max-width: 100%;
+  margin-bottom: 40px;
+  max-width: 100%;
 }
 
 .contactform {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .contanctformlabel {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .contanctforminput {
-    margin-bottom: 10px;
-    padding: 10px;
-    box-sizing: border-box;
-    resize: none;
-    color: #1a1b1f;
-    border: 1px solid #e4e4e4;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: none;
+  color: #1a1b1f;
+  border: 1px solid #e4e4e4;
 }
 
 .contactformbutton {
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: black;
-    border: none;
-    color: white;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 1px;
-    width: 100%;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 1px;
+  width: 100%;
 }
 
 .contactformbutton:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .MapSection {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .MapDiv {
-    width: auto;
-    height: 460px;
-    background-color: #e0e0e0;
+  width: auto;
+  height: 460px;
+  background-color: #e0e0e0;
 }
 
 .OurServicesSection {
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .OurServicesContainer {
-    width: 100%;
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .OurServicesGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    gap: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 50px;
 }
 
 .DividerGrid {
-    max-width: 100%;
-    height: 1px;
-    background-color: grey;
-    opacity: 20%;
+  max-width: 100%;
+  height: 1px;
+  background-color: grey;
+  opacity: 20%;
 }
 
 .OurServicesGridChild {
-    width: auto;
+  width: auto;
 }
 
 .OurTeamSection {
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 40px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
 }
 
 .OurTeamSectionContainer {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 1140px;
-    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1140px;
+  text-align: center;
 }
 
 .OurTeamGridTitle {
-    margin-top: 80px;
-    margin-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .OurTeamGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: left;
-    align-items: stretch;
-    justify-items: stretch;
-    align-content: stretch;
-    justify-content: stretch;
-    gap: 50px;
-    margin-bottom: 60px;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: left;
+  align-items: stretch;
+  justify-items: stretch;
+  align-content: stretch;
+  justify-content: stretch;
+  gap: 50px;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 .TeamMemberPicture {
-    width: 100%;
-    height: 420px;
-    margin-bottom: 40px;
-    background-color: #f4f4f4;
+  width: 100%;
+  height: 420px;
+  margin-bottom: 40px;
+  background-color: #f4f4f4;
 }
 
 .ProjectsSection {
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 40px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
 }
 
 .ProjectsSectionContainer {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 1140px;
-    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1140px;
+  text-align: center;
 }
 
 .ProjectsSectionTitle {
-    margin-top: 80px;
-    margin-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .ProjectsGrid {
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: left;
-    align-items: stretch;
-    justify-items: stretch;
-    align-content: stretch;
-    justify-content: stretch;
-    margin-bottom: 60px;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: left;
+  align-items: stretch;
+  justify-items: stretch;
+  align-content: stretch;
+  justify-content: stretch;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 .PortfolioSVG {
-    width: 100%;
+  width: 100%;
 }
 
 .IntroHeaderProjectOne {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    width: auto;
-    height: 620px;
-    background-image: url("/portfolio/portfolio1.svg");
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: auto;
+  height: 620px;
+  background-image: url("/portfolio/portfolio1.svg");
 }
 
 .IntroHeaderProjectTwo {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    width: auto;
-    height: 620px;
-    background-image: url("/portfolio/portfolio2.svg");
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: auto;
+  height: 620px;
+  background-image: url("/portfolio/portfolio2.svg");
 }
 
 .IntroHeaderProjectThree {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    width: auto;
-    height: 620px;
-    background-image: url("/portfolio/portfolio3.svg");
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: auto;
+  height: 620px;
+  background-image: url("/portfolio/portfolio3.svg");
 }
 
 .IntroContentProject {
-    margin-top: 220px;
-    width: 70%;
-    max-width: 1140px;
-    height: auto;
+  margin-top: 220px;
+  width: 70%;
+  max-width: 1140px;
+  height: auto;
 }
 
 .IntroTextProject {
-    text-align: center;
+  text-align: center;
 }
 
 .HeadingJumboProject {
-    color: white;
-    font-size: 64px;
-    font-weight: 400;
+  color: white;
+  font-size: 64px;
+  font-weight: 400;
 }
 
 .ProjectDescritionSection {
-    margin-left: 30px;
-    margin-right: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .ProjectDescritionContainer {
-    width: 100%;
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #1a1b1f;
-    font-size: 16px;
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #1a1b1f;
+  font-size: 16px;
 }
 
 .ProjectDescritionGrid {
-    display: grid;
-    align-items: start;
-    justify-items: stretch;
-    align-content: stretch;
-    justify-content: stretch;
-    grid-template-columns: 1fr 2fr;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    gap: 80px;
+  display: grid;
+  align-items: start;
+  justify-items: stretch;
+  align-content: stretch;
+  justify-content: stretch;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 80px;
 }
 
 .ProjectDescritionImageDiv {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .BlogSection {
-    margin-left: 30px;
-    margin-right: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .BlogTextDiv {
-    text-align: center;
-    margin-bottom: 80px;
+  text-align: center;
+  margin-bottom: 80px;
 }
 
 .BlogContainer {
-    width: 100%;
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #1a1b1f;
-    font-size: 16px;
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #1a1b1f;
+  font-size: 16px;
 }
 
 .BlogDescription {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .BlogDivCard {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
