@@ -17,7 +17,7 @@ export default function Projects() {
                 <section className={styles.headersection}>
                     <div className={styles.aboutoheader}>
                         <div>
-                            <h1 className={styles.headingjumbo}>Our work</h1>
+                            <h1 className={styles.HeadingJumbo}>Our work</h1>
                         </div>
                     </div>
                 </section>

@@ -95,7 +95,9 @@
   text-align: center;
 }
 
-.headingjumbo {
+/**/
+
+.HeadingJumbo {
   color: white;
   font-size: 64px;
   font-weight: 400;
@@ -103,19 +105,63 @@
   margin-bottom: 10px;
 }
 
-.HeadingJumboSmall {
-  margin-top: 10px;
-  margin-bottom: 15px;
-  font-size: 36px;
-  font-weight: 400
-}
-
-.headingparagraph {
+.ParagraphBigger {
   font-size: 20px;
   color: white;
   opacity: 60%;
   margin-bottom: 10px;
 }
+
+.HeadingJumboSmall {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.Label {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  /*line-height: 20px;*/
+  letter-spacing: 2px;
+  color: #1a1b1f;
+  opacity: 60%;
+}
+
+.HeadingJumboBlack {
+  color: #1a1b1f;
+  font-size: 64px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.HeadingJumboSmallWhite {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.SeactionHeading {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.ParagraphLight {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 60%;
+}
+
+/**/
 
 .headingbutton {
   padding-left: 35px;
@@ -148,6 +194,7 @@
   margin-right: auto;
   margin-left: auto;
   width: 80%;
+  padding-bottom: 85px;
 }
 
 .mottolabel {
@@ -157,7 +204,6 @@
 }
 
 .divider {
-  margin-top: 60px;
   height: 1px;
   background-color: grey;
   opacity: 20%;
@@ -188,6 +234,10 @@
   width: 100%;
 }
 
+.HomeSectionWarap {
+  margin-bottom: 30px;
+}
+
 .aboutgrid2 {
   display: grid;
   align-items: center;
@@ -214,7 +264,7 @@
 }
 
 .colelctionblog {
-  padding: 50px;
+  padding: 30px;
 }
 
 .CtaSection {

@@ -17,7 +17,7 @@ export default function Team() {
                 <section className={styles.headersection}>
                     <div className={styles.aboutoheader}>
                         <div>
-                            <h1 className={styles.headingjumbo}>Team</h1>
+                            <h1 className={styles.HeadingJumbo}>Team</h1>
                         </div>
                     </div>
                 </section>

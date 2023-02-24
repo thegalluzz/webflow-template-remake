@@ -14,9 +14,9 @@ export default function Blog() {
             </Head>
             <main className={styles.main}>
                 <Navbar />
-                <div className={styles.aboutoheader}>
-                    <div>
-                        <h1 className={styles.headingjumbo}>Our Blog</h1>
+                <div  className={styles.headersection}>
+                    <div className={styles.aboutoheader}>
+                        <h1 className={styles.HeadingJumbo}>Our Blog</h1>
                     </div>
                 </div>
                 <section className={styles.BlogSection}>
@@ -27,7 +27,7 @@ export default function Blog() {
                                 <h2>Our Stories</h2>
                             </div>
                             <div className={styles.BlogDivCard}>
-                                <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG}/>
+                                <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG} />
                                 <div className={styles.BlogDescription}>
                                     <div>
                                         <h2>10 Quick Tips About Blogging</h2>
@@ -46,7 +46,7 @@ export default function Blog() {
                             </div>
 
                             <div className={styles.BlogDivCard}>
-                                <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG}/>
+                                <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG} />
                                 <div className={styles.BlogDescription}>
                                     <div>
                                         <h2>10 Quick Tips About Blogging</h2>
@@ -65,7 +65,7 @@ export default function Blog() {
                             </div>
 
                             <div className={styles.BlogDivCard}>
-                                <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG}/>
+                                <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG} />
                                 <div className={styles.BlogDescription}>
                                     <div>
                                         <h2>10 Quick Tips About Blogging</h2>

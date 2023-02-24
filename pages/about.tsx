@@ -18,7 +18,7 @@ export default function About() {
                 <section className={styles.headersection}>
                     <div className={styles.aboutoheader}>
                         <div>
-                            <h1 className={styles.headingjumbo}>About Us</h1>
+                            <h1 className={styles.HeadingJumbo}>About Us</h1>
                         </div>
                     </div>
                     <div className={styles.aboutcontainer}>

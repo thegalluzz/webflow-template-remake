@@ -17,7 +17,7 @@ export default function Contact() {
                 <section className={styles.headersection}>
                     <div className={styles.aboutoheader}>
                         <div>
-                            <h1 className={styles.headingjumbo}>Contact Us</h1>
+                            <h1 className={styles.HeadingJumbo}>Contact Us</h1>
                         </div>
                     </div>
                 </section>

@@ -23,8 +23,8 @@ export default function Home() {
           <div className={styles.introheader}>
             <div className={styles.introcontent}>
               <div className={styles.introtext}>
-                <h1 className={styles.headingjumbo}>Grow your business.</h1>
-                <p className={styles.headingparagraph}>Give your business a boost with a beautifully crafted homepage.</p>
+                <h1 className={styles.HeadingJumbo}>Grow your business.</h1>
+                <p className={styles.ParagraphBigger}>Give your business a boost with a beautifully crafted homepage.</p>
                 <Link href="/about"><button className={styles.headingbutton}>LEARN MORE</button></Link>
               </div>
             </div>
@@ -38,10 +38,10 @@ export default function Home() {
             <div className={styles.homecontentwrap}>
               <div className={styles.aboutgrid}>
                 <div className={styles.gridchild}>
-                  <div className={styles.grid_text_block}>
-                    <text>ABOUT</text>
-                    <h2>Who we are</h2>
-                    <p>
+                  <div className={styles.HomeSectionWarap}>
+                    <p className={styles.Label}>ABOUT</p>
+                    <h2 className={styles.SeactionHeading}>Who we are</h2>
+                    <p className={styles.ParagraphLight}>
                       Nulla vel sodales tellus, quis condimentum enim. Nunc porttitor venenatis feugiat. Etiam quis faucibus erat, non accumsan leo.
                       Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper gravida tellus ut consequat.
                     </p>
@@ -53,10 +53,10 @@ export default function Home() {
               <div className={styles.aboutgrid2}>
                 <img src='placeholder_1.svg' className={styles.gridchild} />
                 <div className={styles.gridchild}>
-                  <div className={styles.grid_text_block}>
-                    <text>TEAM</text>
-                    <h2>What we do</h2>
-                    <p>
+                  <div className={styles.HomeSectionWarap}>
+                    <p className={styles.Label}>TEAM</p>
+                    <h2 className={styles.SeactionHeading}>What we do</h2>
+                    <p className={styles.ParagraphLight}>
                       Nulla vel sodales tellus, quis condimentum enim. Nunc porttitor venenatis feugiat. Etiam quis faucibus erat, non accumsan leo.
                       Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper gravida tellus ut consequat.
                     </p>
@@ -70,8 +70,8 @@ export default function Home() {
         <section>
           <div className={styles.container}>
             <div className={styles.blogheading}>
-              <text>ABOUT US</text>
-              <h2>Company news</h2>
+              <p className={styles.Label}>ABOUT US</p>
+              <h2 className={styles.HeadingJumboSmall}>Company news</h2>
             </div>
           </div>
           <div className={styles.collectionwrapper}>
