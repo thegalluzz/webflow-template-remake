@@ -373,6 +373,14 @@
   margin-right: auto;
 }
 
+.AboutStoryWrap {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 .aboutserveicessection {
   text-align: center;
   margin-left: 30px;
@@ -390,8 +398,8 @@
 }
 
 .aboutsectionheadingwrap {
-  /*padding-top: 50px;*/
-  /*padding-bottom: 80px;*/
+  margin-top: 80px;
+  margin-bottom: 80px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -399,12 +407,17 @@
 .servicsegrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
   text-align: left;
   align-items: stretch;
   justify-items: stretch;
   align-content: stretch;
   justify-content: stretch;
   margin-bottom: 120px;
+}
+
+.ServiceGridChildImg{
+  width: 50px;
 }
 
 .ContactGridContainer {

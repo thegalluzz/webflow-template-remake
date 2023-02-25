@@ -22,24 +22,26 @@ export default function About() {
                         </div>
                     </div>
                     <div className={styles.aboutcontainer}>
-                        <div>
-                            <h1 className={styles.heading}>We're a group of creative thinkers who have built a business to change the world.</h1>
+                        <div className={styles.mottowrap}>
+                            <h1 className={styles.HeadingJumboSmall}>
+                                We're a group of creative thinkers who have built a business to change the world.
+                            </h1>
                         </div>
                         <div className={styles.divider}></div>
-                        <div>
-                            <p>
+                        <div className={styles.AboutStoryWrap}>
+                            <p className={styles.ParagraphLight}>
                                 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                                 there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
                                 a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
                                 It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
                             </p>
-                            <p>
+                            <p className={styles.ParagraphLight}>
                                 Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
                                 One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
                                 The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli,
                                 but the Little Blind Text didn't listen.
                             </p>
-                            <p>
+                            <p className={styles.ParagraphLight}>
                                 She packed her seven versalia, put her initial into the belt and made herself on the way.
                                 When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove,
                                 the headline of Alphabet Village and the subline of her own road, the Line Lane.
@@ -51,43 +53,55 @@ export default function About() {
                 <section className={styles.aboutserveicessection}>
                     <div className={styles.aboutserveicescontainer}>
                         <div className={styles.aboutsectionheadingwrap}>
-                            <text>
-                                What we are best at
-                            </text>
-                            <h2>
+                            <p className={styles.Label}>
+                                WHAT WE ARE BEST AT
+                            </p>
+                            <h2 className={styles.HeadingJumboSmall}>
                                 Our Services
                             </h2>
                         </div>
                         <div className={styles.servicsegrid}>
                             <div>
-                                <img src="/incons/Icon_1.svg" />
-                                <p>Support</p>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+                                <img src="/incons/Icon_1.svg" className={styles.ServiceGridChildImg}/>
+                                <p className={styles.ParagraphBiggerBlack}>Support</p>
+                                <p className={styles.ParagraphLight}>
+                                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts
+                                </p>
                             </div>
                             <div>
-                                <img src="/incons/Icon_4.svg" />
-                                <p>Strategy</p>
-                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+                                <img src="/incons/Icon_4.svg" className={styles.ServiceGridChildImg}/>
+                                <p className={styles.ParagraphBiggerBlack}>Strategy</p>
+                                <p className={styles.ParagraphLight}>
+                                    Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
+                                </p>
                             </div>
                             <div>
-                                <img src="/incons/Icon_3.svg" />
-                                <p>Management</p>
-                                <p>Blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+                                <img src="/incons/Icon_3.svg" className={styles.ServiceGridChildImg}/>
+                                <p className={styles.ParagraphBiggerBlack}>Management</p>
+                                <p className={styles.ParagraphLight}>
+                                    Blind texts it is an almost unorthographic life One day however a small line of blind text by the name
+                                </p>
                             </div>
                             <div>
-                                <img src="/incons/Icon_3.svg" />
-                                <p>Training</p>
-                                <p>Blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+                                <img src="/incons/Icon_3.svg" className={styles.ServiceGridChildImg}/>
+                                <p className={styles.ParagraphBiggerBlack}>Training</p>
+                                <p className={styles.ParagraphLight}>
+                                    Blind texts it is an almost unorthographic life One day however a small line of blind text by the name
+                                </p>
                             </div>
                             <div>
-                                <img src="/incons/Icon_2.svg" />
-                                <p>Consulting </p>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+                                <img src="/incons/Icon_2.svg" className={styles.ServiceGridChildImg}/>
+                                <p className={styles.ParagraphBiggerBlack}>Consulting</p>
+                                <p className={styles.ParagraphLight}>
+                                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts
+                                </p>
                             </div>
                             <div>
-                                <img src="/incons/Icon_1.svg" />
-                                <p>Events </p>
-                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+                                <img src="/incons/Icon_1.svg" className={styles.ServiceGridChildImg}/>
+                                <p className={styles.ParagraphBiggerBlack}> Events </p>
+                                <p className={styles.ParagraphLight}>
+                                    Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
+                                </p>
                             </div>
                         </div>
                     </div>
