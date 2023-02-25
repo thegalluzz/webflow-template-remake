@@ -76,37 +76,43 @@ export default function Home() {
           </div>
           <div className={styles.collectionwrapper}>
             <div className={styles.colelctionblog}>
-              <h3>10 Quick Tips About Blogging</h3>
-              <text>FEB 21, 2019</text>
-              <p>Sit quam quae perferendis harum amet dolorum possimus minus.
+              <h3 className={styles.BusinessArticleHeading}>10 Quick Tips About Blogging</h3>
+              <p className={styles.Label}>FEB 21, 2019</p>
+              <p className={styles.ParagraphLight}>
+                Sit quam quae perferendis harum amet dolorum possimus minus.
                 Occaecati magnam animi quasi dolor quae et aut.
                 Autem voluptas alias nobis in odit.
                 Aperiam harum eum modi neque.
                 Ipsum iusto beatae et esse nobis illum hic natus.
                 Sapiente non cumque quia facilis.
-                Quo est odio culpa eaque sit ipsum mol</p>
+                Quo est odio culpa eaque sit ipsum mol
+              </p>
             </div>
             <div className={styles.colelctionblog}>
-              <h3>10 Quick Tips About Blogging</h3>
-              <text>FEB 21, 2019</text>
-              <p>Sit quam quae perferendis harum amet dolorum possimus minus.
+              <h3 className={styles.BusinessArticleHeading}>10 Quick Tips About Blogging</h3>
+              <p className={styles.Label}>FEB 21, 2019</p>
+              <p className={styles.ParagraphLight}>
+                Sit quam quae perferendis harum amet dolorum possimus minus.
                 Occaecati magnam animi quasi dolor quae et aut.
                 Autem voluptas alias nobis in odit.
                 Aperiam harum eum modi neque.
                 Ipsum iusto beatae et esse nobis illum hic natus.
                 Sapiente non cumque quia facilis.
-                Quo est odio culpa eaque sit ipsum mol</p>
+                Quo est odio culpa eaque sit ipsum mol
+              </p>
             </div>
             <div className={styles.colelctionblog}>
-              <h3>10 Quick Tips About Blogging</h3>
-              <text>FEB 21, 2019</text>
-              <p>Sit quam quae perferendis harum amet dolorum possimus minus.
+              <h3 className={styles.BusinessArticleHeading}>10 Quick Tips About Blogging</h3>
+              <p className={styles.Label}>FEB 21, 2019</p>
+              <p className={styles.ParagraphLight}>
+                Sit quam quae perferendis harum amet dolorum possimus minus.
                 Occaecati magnam animi quasi dolor quae et aut.
                 Autem voluptas alias nobis in odit.
                 Aperiam harum eum modi neque.
                 Ipsum iusto beatae et esse nobis illum hic natus.
                 Sapiente non cumque quia facilis.
-                Quo est odio culpa eaque sit ipsum mol</p>
+                Quo est odio culpa eaque sit ipsum mol
+              </p>
             </div>
           </div>
         </section>
