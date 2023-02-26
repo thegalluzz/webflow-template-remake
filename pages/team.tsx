@@ -1,6 +1,6 @@
 import Head from "next/head"
-import styles from '@/styles/Home.module.css'
 import Navbar from "@/components/navbar"
+import styles from "@/styles/Home.module.css"
 import CallToAction from "@/components/cta"
 import Footer from "@/components/footer"
 
@@ -24,8 +24,8 @@ export default function Team() {
                 <section className={styles.OurTeamSection}>
                     <div className={styles.OurTeamSectionContainer}>
                         <div className={styles.OurTeamGridTitle}>
-                            <p>Our people</p>
-                            <h2>Our world-class team</h2>
+                            <p>OUR PEOPLE</p>
+                            <h2  className={styles.HeadingJumboSmall}>Our world-class team</h2>
                         </div>
                         <div className={styles.OurTeamGrid}>
                             <div>
