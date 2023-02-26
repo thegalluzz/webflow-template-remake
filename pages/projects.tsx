@@ -24,7 +24,7 @@ export default function Projects() {
                 <section className={styles.ProjectsSection}>
                     <div className={styles.ProjectsSectionContainer}>
                         <div className={styles.ProjectsSectionTitle}>
-                            <p>OUR WORK</p>
+                            <p className={styles.Label}>OUR WORK</p>
                             <h2 className={styles.HeadingJumboSmall}>Team projects</h2>
                         </div>
                         <div className={styles.ProjectsGrid}>
