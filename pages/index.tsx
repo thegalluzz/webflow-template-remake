@@ -31,7 +31,7 @@ export default function Home() {
           </div>
           <div className={styles.introcontainer}>
             <div className={styles.mottowrap}>
-              <p className={styles.mottolabel}>WHAT WE BELIEVE IN</p>
+              <p className={styles.Label}>WHAT WE BELIEVE IN</p>
               <h1 className={styles.HeadingJumboSmall}>Grow your business, establish your brand, and put your customers first.</h1>
             </div>
             <div className={styles.divider}></div>
