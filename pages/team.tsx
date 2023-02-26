@@ -24,7 +24,7 @@ export default function Team() {
                 <section className={styles.OurTeamSection}>
                     <div className={styles.OurTeamSectionContainer}>
                         <div className={styles.OurTeamGridTitle}>
-                            <p>OUR PEOPLE</p>
+                            <p className={styles.Label}>OUR PEOPLE</p>
                             <h2  className={styles.HeadingJumboSmall}>Our world-class team</h2>
                         </div>
                         <div className={styles.OurTeamGrid}>
@@ -34,7 +34,7 @@ export default function Team() {
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Michael Fassbender</p>
-                                    <p>CEO</p>
+                                    <p className={styles.ParagraphLight}>CEO</p>
                                 </div>
                             </div>
                             <div>
@@ -43,7 +43,7 @@ export default function Team() {
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Jason Smith</p>
-                                    <p>Product Designer</p>
+                                    <p className={styles.ParagraphLight}>Product Designer</p>
                                 </div>
                             </div>
                             <div>
@@ -52,7 +52,7 @@ export default function Team() {
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Amanda Peterson</p>
-                                    <p>Design Director</p>
+                                    <p className={styles.ParagraphLight}>Design Director</p>
                                 </div>
                             </div>
                             <div>
@@ -61,7 +61,7 @@ export default function Team() {
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Billy Maxwell</p>
-                                    <p>Lead Developer</p>
+                                    <p className={styles.ParagraphLight}>Lead Developer</p>
                                 </div>
                             </div>
                             <div>
@@ -70,7 +70,7 @@ export default function Team() {
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Joshua Harris</p>
-                                    <p>CTO</p>
+                                    <p className={styles.ParagraphLight}>CTO</p>
                                 </div>
                             </div>
                             <div>
@@ -79,7 +79,7 @@ export default function Team() {
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Esther Ford</p>
-                                    <p>Recruiter</p>
+                                    <p className={styles.ParagraphLight}>Recruiter</p>
                                 </div>
                             </div>
                         </div>

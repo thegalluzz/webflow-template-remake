@@ -23,7 +23,7 @@ export default function Blog() {
                     <div className={styles.BlogContainer}>
                         <div>
                             <div className={styles.BlogTextDiv}>
-                                <p >APERIAM HARIUM</p>
+                                <p className={styles.Label}>APERIAM HARIUM</p>
                                 <h2 className={styles.HeadingJumboSmall}>Our Stories</h2>
                             </div>
                             <div className={styles.BlogDivCard}>
@@ -40,7 +40,7 @@ export default function Blog() {
                                             Sapiente non cumque quia facilis.
                                             Quo est odio culpa eaque sit ipsum mol
                                         </p>
-                                        <p>FEBRUARY 21, 2019</p>
+                                        <p className={styles.Label}>FEBRUARY 21, 2019</p>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ export default function Blog() {
                                             Sapiente non cumque quia facilis.
                                             Quo est odio culpa eaque sit ipsum mol
                                         </p>
-                                        <p>FEBRUARY 21, 2019</p>
+                                        <p className={styles.Label}>FEBRUARY 21, 2019</p>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ export default function Blog() {
                                             Sapiente non cumque quia facilis.
                                             Quo est odio culpa eaque sit ipsum mol
                                         </p>
-                                        <p>FEBRUARY 21, 2019</p>
+                                        <p className={styles.Label}>FEBRUARY 21, 2019</p>
                                     </div>
                                 </div>
                             </div>
