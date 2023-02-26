@@ -13,7 +13,7 @@ export default function ProjectTwo() {
                 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
             </Head>
             <main className={styles.main}>
-            <Navbar />
+                <Navbar />
                 <section className={styles.headersection}>
                     <div className={styles.IntroHeaderProjectTwo}>
                         <div className={styles.IntroContentProject}>
