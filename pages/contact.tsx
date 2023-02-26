@@ -48,8 +48,10 @@ export default function Contact() {
                             </div>
                             <div>
                                 <div>
-                                    <p>Our offices </p>
-                                    <p className={styles.ParagraphLight}>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                                    <p>Our offices</p>
+                                    <p className={styles.ParagraphLight}>
+                                        Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+                                    </p>
                                 </div>
                                 <div>
                                     <p>OUR OFFICE</p>
