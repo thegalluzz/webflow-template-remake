@@ -28,18 +28,18 @@ export default function ProjectThree() {
                         <div className={styles.ProjectDescritionGrid}>
                             <div>
                                 <div>
-                                    <p>DESCRIPTION</p>
+                                    <p className={styles.LabelDark}>DESCRIPTION</p>
                                     <p className={styles.ParagraphLight}>
                                         Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                                         Separated they live in Bookmarksgrove right at the coast.
                                     </p>
                                 </div>
                                 <div>
-                                    <p>WHEN</p>
+                                    <p className={styles.LabelDark}>WHEN</p>
                                     <p className={styles.ParagraphLight}>January 2017</p>
                                 </div>
                                 <div>
-                                    <p>WHO</p>
+                                    <p className={styles.LabelDark}>WHO</p>
                                     <p className={styles.ParagraphLight}>
                                         Jason Davis, John Anderson, Mirco Cattabriga, Aaron Jones, Amanda Johnson, Steve McQueen
                                     </p>
