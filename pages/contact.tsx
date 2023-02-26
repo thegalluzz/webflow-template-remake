@@ -48,21 +48,21 @@ export default function Contact() {
                             </div>
                             <div>
                                 <div>
-                                    <p>Our offices</p>
+                                    <p className={styles.LabelDark}>OUR OFFICES</p>
                                     <p className={styles.ParagraphLight}>
                                         Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
                                     </p>
                                 </div>
                                 <div>
-                                    <p>OUR OFFICE</p>
+                                    <p className={styles.LabelDark}>OUR OFFICE</p>
                                     <p className={styles.ParagraphLight}>908 Broadway, San Francisco,CA 94133</p>
                                 </div>
                                 <div>
-                                    <p>WORKING HOURS</p>
+                                    <p className={styles.LabelDark}>WORKING HOURS</p>
                                     <p className={styles.ParagraphLight}>9AM - 3PM, Mon to Fri</p>
                                 </div>
                                 <div>
-                                    <p>CONTACT</p>
+                                    <p className={styles.LabelDark}>CONTACT</p>
                                     <a href="" className={styles.ParagraphLight}>contact@business.com</a>
                                     <p className={styles.ParagraphLight}>01 (650) 658 6822</p>
                                 </div>
