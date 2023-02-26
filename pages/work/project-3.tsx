@@ -18,7 +18,7 @@ export default function ProjectThree() {
                     <div className={styles.IntroHeaderProjectThree}>
                         <div className={styles.IntroContentProject}>
                             <div className={styles.IntroTextProject}>
-                                <h1 className={styles.HeadingJumboProject}>Project #2</h1>
+                                <h1 className={styles.HeadingJumboProject}>Project #3</h1>
                             </div>
                         </div>
                     </div>
