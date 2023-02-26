@@ -26,8 +26,9 @@ export default function Contact() {
                         <div className={styles.contactusgrid}>
                             <div className={styles.contacusformwrap}>
                                 <div className={styles.contactustextdiv}>
-                                    <h2>Contact us</h2>
-                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
+                                    <h2 className={styles.HeadingJumboSmall}>Contact us</h2>
+                                    <p className={styles.ParagraphLight}>
+                                        Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
                                         One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
                                     </p>
                                 </div>
@@ -37,27 +38,31 @@ export default function Contact() {
                                     <label htmlFor="email" className={styles.contanctformlabel}>EMAIL ADDRESS</label>
                                     <input type="text" id="email" name="email" placeholder="Enter your email" className={styles.contanctforminput} />
                                     <label htmlFor="message" className={styles.contanctformlabel}>MESSAGE</label>
-                                    <textarea id="message" name="message" placeholder="Hi there, I'm reaching out because I think we can collaborate…" className={styles.contanctforminput} />
+                                    <textarea
+                                        id="message"
+                                        name="message"
+                                        placeholder="Hi there, I'm reaching out because I think we can collaborate…"
+                                        className={styles.ContanctFormInputMessage} />
                                     <input type="submit" value="Submit" className={styles.contactformbutton} />
                                 </form>
                             </div>
                             <div>
                                 <div>
                                     <p>Our offices </p>
-                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                                    <p className={styles.ParagraphLight}>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                                 </div>
                                 <div>
                                     <p>OUR OFFICE</p>
-                                    <p>908 Broadway, San Francisco,CA 94133</p>
+                                    <p className={styles.ParagraphLight}>908 Broadway, San Francisco,CA 94133</p>
                                 </div>
                                 <div>
                                     <p>WORKING HOURS</p>
-                                    <p>9AM - 3PM, Mon to Fri</p>
+                                    <p className={styles.ParagraphLight}>9AM - 3PM, Mon to Fri</p>
                                 </div>
                                 <div>
                                     <p>CONTACT</p>
-                                    <a href="">contact@business.com</a>
-                                    <p>01 (650) 658 6822</p>
+                                    <a href="" className={styles.ParagraphLight}>contact@business.com</a>
+                                    <p className={styles.ParagraphLight}>01 (650) 658 6822</p>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +70,7 @@ export default function Contact() {
                 </section>
                 <section className={styles.MapSection}>
                     <div className={styles.MapDiv}>
-                        <h1>Put the map here</h1>
+                        <h1> </h1>
                     </div>
                 </section>
                 <section className={styles.OurServicesSection}>

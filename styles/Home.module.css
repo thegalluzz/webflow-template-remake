@@ -132,7 +132,7 @@
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 12px;
-  /*line-height: 20px;*/
+  line-height: 20px;
   letter-spacing: 2px;
   color: #1a1b1f;
   opacity: 60%;
@@ -416,7 +416,7 @@
   margin-bottom: 120px;
 }
 
-.ServiceGridChildImg{
+.ServiceGridChildImg {
   width: 50px;
 }
 
@@ -457,11 +457,35 @@
 
 .contanctformlabel {
   margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .contanctforminput {
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-bottom: 25px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  box-sizing: border-box;
+  resize: none;
+  color: #1a1b1f;
+  border: 1px solid #e4e4e4;
+}
+
+.ContanctFormInputMessage {
+  margin-bottom: 25px;
+  padding-top: 12px;
+  padding-bottom: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 200px;
+  font-size: 14px;
+  font-weight: 400;
   box-sizing: border-box;
   resize: none;
   color: #1a1b1f;
