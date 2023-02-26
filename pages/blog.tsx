@@ -23,15 +23,15 @@ export default function Blog() {
                     <div className={styles.BlogContainer}>
                         <div>
                             <div className={styles.BlogTextDiv}>
-                                <p>Aperiam harum</p>
-                                <h2>Our Stories</h2>
+                                <p>APERIAM HARIUM</p>
+                                <h2 className={styles.HeadingJumboSmall}>Our Stories</h2>
                             </div>
                             <div className={styles.BlogDivCard}>
                                 <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG} />
                                 <div className={styles.BlogDescription}>
                                     <div>
-                                        <h2>10 Quick Tips About Blogging</h2>
-                                        <p>
+                                        <h2 className={styles.HeadingJumboSmall}>10 Quick Tips About Blogging</h2>
+                                        <p className={styles.ParagraphLight}>
                                             Sit quam quae perferendis harum amet dolorum possimus minus.
                                             Occaecati magnam animi quasi dolor quae et aut.
                                             Autem voluptas alias nobis in odit.
@@ -49,8 +49,8 @@ export default function Blog() {
                                 <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG} />
                                 <div className={styles.BlogDescription}>
                                     <div>
-                                        <h2>10 Quick Tips About Blogging</h2>
-                                        <p>
+                                        <h2 className={styles.HeadingJumboSmall}>15 Best Blogs To Follow About Web Design</h2>
+                                        <p className={styles.ParagraphLight}>
                                             Sit quam quae perferendis harum amet dolorum possimus minus.
                                             Occaecati magnam animi quasi dolor quae et aut.
                                             Autem voluptas alias nobis in odit.
@@ -68,8 +68,8 @@ export default function Blog() {
                                 <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG} />
                                 <div className={styles.BlogDescription}>
                                     <div>
-                                        <h2>10 Quick Tips About Blogging</h2>
-                                        <p>
+                                        <h2 className={styles.HeadingJumboSmall}>7 of the Best Examples of Beautiful Blog Design</h2>
+                                        <p className={styles.ParagraphLight}>
                                             Sit quam quae perferendis harum amet dolorum possimus minus.
                                             Occaecati magnam animi quasi dolor quae et aut.
                                             Autem voluptas alias nobis in odit.
