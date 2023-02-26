@@ -67,7 +67,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section className={styles.section}>
           <div className={styles.container}>
             <div className={styles.blogheading}>
               <p className={styles.Label}>ABOUT US</p>
@@ -79,39 +79,30 @@ export default function Home() {
               <h3 className={styles.BusinessArticleHeading}>10 Quick Tips About Blogging</h3>
               <p className={styles.Label}>FEB 21, 2019</p>
               <p className={styles.ParagraphLight}>
-                Sit quam quae perferendis harum amet dolorum possimus minus.
-                Occaecati magnam animi quasi dolor quae et aut.
-                Autem voluptas alias nobis in odit.
-                Aperiam harum eum modi neque.
-                Ipsum iusto beatae et esse nobis illum hic natus.
-                Sapiente non cumque quia facilis.
-                Quo est odio culpa eaque sit ipsum mol
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
               </p>
             </div>
             <div className={styles.colelctionblog}>
-              <h3 className={styles.BusinessArticleHeading}>10 Quick Tips About Blogging</h3>
+              <h3 className={styles.BusinessArticleHeading}>15 Best Blogs To Follow About Web Design</h3>
               <p className={styles.Label}>FEB 21, 2019</p>
               <p className={styles.ParagraphLight}>
-                Sit quam quae perferendis harum amet dolorum possimus minus.
-                Occaecati magnam animi quasi dolor quae et aut.
-                Autem voluptas alias nobis in odit.
-                Aperiam harum eum modi neque.
-                Ipsum iusto beatae et esse nobis illum hic natus.
-                Sapiente non cumque quia facilis.
-                Quo est odio culpa eaque sit ipsum mol
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
               </p>
             </div>
             <div className={styles.colelctionblog}>
-              <h3 className={styles.BusinessArticleHeading}>10 Quick Tips About Blogging</h3>
+              <h3 className={styles.BusinessArticleHeading}>7 of the Best Examples of Beautiful Blog Design</h3>
               <p className={styles.Label}>FEB 21, 2019</p>
               <p className={styles.ParagraphLight}>
-                Sit quam quae perferendis harum amet dolorum possimus minus.
-                Occaecati magnam animi quasi dolor quae et aut.
-                Autem voluptas alias nobis in odit.
-                Aperiam harum eum modi neque.
-                Ipsum iusto beatae et esse nobis illum hic natus.
-                Sapiente non cumque quia facilis.
-                Quo est odio culpa eaque sit ipsum mol
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
               </p>
             </div>
           </div>
