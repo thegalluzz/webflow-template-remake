@@ -14,7 +14,7 @@ export default function Blog() {
             </Head>
             <main className={styles.main}>
                 <Navbar />
-                <div  className={styles.headersection}>
+                <div className={styles.headersection}>
                     <div className={styles.aboutoheader}>
                         <h1 className={styles.HeadingJumbo}>Our Blog</h1>
                     </div>
@@ -23,7 +23,7 @@ export default function Blog() {
                     <div className={styles.BlogContainer}>
                         <div>
                             <div className={styles.BlogTextDiv}>
-                                <p>APERIAM HARIUM</p>
+                                <p >APERIAM HARIUM</p>
                                 <h2 className={styles.HeadingJumboSmall}>Our Stories</h2>
                             </div>
                             <div className={styles.BlogDivCard}>
