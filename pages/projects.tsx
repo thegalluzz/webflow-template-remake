@@ -32,7 +32,7 @@ export default function Projects() {
                                 <a href="/work/project-1"><img src="/portfolio/portfolio1.svg" alt="Portfolio 1" className={styles.PortfolioSVG} /></a>
                             </div>
                             <div>
-                                <p>Project #1</p>
+                                <p className={styles.ProjectTitle}>Project #1</p>
                                 <p className={styles.ParagraphLight}>Art direction</p>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ export default function Projects() {
                                 <a href="/work/project-2"><img src="/portfolio/portfolio1.svg" alt="Portfolio 1" className={styles.PortfolioSVG} /></a>
                             </div>
                             <div>
-                                <p>Project #2</p>
+                                <p className={styles.ProjectTitle}>Project #2</p>
                                 <p className={styles.ParagraphLight}>Product Design</p>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ export default function Projects() {
                                 <a href="/work/project-3"><img src="/portfolio/portfolio1.svg" alt="Portfolio 1" className={styles.PortfolioSVG} /></a>
                             </div>
                             <div>
-                                <p>Project #3</p>
+                                <p className={styles.ProjectTitle}>Project #3</p>
                                 <p className={styles.ParagraphLight}>Animation</p>
                             </div>
                         </div>
