@@ -76,44 +76,47 @@ export default function Contact() {
                 <section className={styles.OurServicesSection}>
                     <div className={styles.OurServicesContainer}>
                         <div>
-                            <p>What we are best at</p>
-                            <h2>Our Services</h2>
+                            <p>WHAT ARE WE BEST AT</p>
+                            <h2 className={styles.HeadingJumboSmall}>Our Services</h2>
                         </div>
                         <div className={styles.OurServicesGrid}>
                             <div className={styles.OurServicesGridChild}>
-                                <img src="/incons/Icon_1.svg" alt="photo" />
+                                {/*<img src="/incons/Icon_1.svg" alt="photo" />*/}
+                                <div className={styles.OurServiceGridDiv} />
                                 <div>
                                     <p>Amanda Peterson</p>
-                                    <p>CEO</p>
+                                    <p className={styles.ParagraphLight}>CEO</p>
                                 </div>
                                 <div className={styles.DividerGrid}></div>
                                 <div>
-                                    <p>ceo@business.com</p>
-                                    <p>01 (650) 658 6823</p>
+                                    <p className={styles.ParagraphLight}>ceo@business.com</p>
+                                    <p className={styles.ParagraphLight}>01 (650) 658 6823</p>
                                 </div>
                             </div>
                             <div className={styles.OurServicesGridChild}>
-                                <img src="/incons/Icon_1.svg" alt="" />
+                                {/*<img src="/incons/Icon_1.svg" alt="photo" />*/}
+                                <div className={styles.OurServiceGridDiv} />
                                 <div>
                                     <p>Jason Smith</p>
-                                    <p>CTO</p>
+                                    <p className={styles.ParagraphLight}>CTO</p>
                                 </div>
                                 <div className={styles.DividerGrid}></div>
                                 <div>
-                                    <p>cto@business.com</p>
-                                    <p>01 (650) 658 6824</p>
+                                    <p className={styles.ParagraphLight}>cto@business.com</p>
+                                    <p className={styles.ParagraphLight}>01 (650) 658 6824</p>
                                 </div>
                             </div>
                             <div className={styles.OurServicesGridChild}>
-                                <img src="/incons/Icon_1.svg" alt="" />
+                                {/*<img src="/incons/Icon_1.svg" alt="photo" />*/}
+                                <div className={styles.OurServiceGridDiv} />
                                 <div>
                                     <p>Michael Fassbender</p>
-                                    <p>Design Director</p>
+                                    <p className={styles.ParagraphLight}>Design Director</p>
                                 </div>
                                 <div className={styles.DividerGrid}></div>
                                 <div>
-                                    <p>cto@business.com</p>
-                                    <p>01 (650) 658 6824</p>
+                                    <p className={styles.ParagraphLight}>cto@business.com</p>
+                                    <p className={styles.ParagraphLight}>01 (650) 658 6824</p>
                                 </div>
                             </div>
                         </div>
