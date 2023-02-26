@@ -24,8 +24,8 @@ export default function Projects() {
                 <section className={styles.ProjectsSection}>
                     <div className={styles.ProjectsSectionContainer}>
                         <div className={styles.ProjectsSectionTitle}>
-                            <p>Our Work</p>
-                            <h2>Team projects</h2>
+                            <p>OUR WORK</p>
+                            <h2 className={styles.HeadingJumboSmall}>Team projects</h2>
                         </div>
                         <div className={styles.ProjectsGrid}>
                             <div>
@@ -33,7 +33,7 @@ export default function Projects() {
                             </div>
                             <div>
                                 <p>Project #1</p>
-                                <p>Art direction</p>
+                                <p className={styles.ParagraphLight}>Art direction</p>
                             </div>
                         </div>
                         <div className={styles.ProjectsGrid}>
@@ -42,7 +42,7 @@ export default function Projects() {
                             </div>
                             <div>
                                 <p>Project #2</p>
-                                <p>Product Design</p>
+                                <p className={styles.ParagraphLight}>Product Design</p>
                             </div>
                         </div>
                         <div className={styles.ProjectsGrid}>
@@ -51,7 +51,7 @@ export default function Projects() {
                             </div>
                             <div>
                                 <p>Project #3</p>
-                                <p>Animation</p>
+                                <p className={styles.ParagraphLight}>Animation</p>
                             </div>
                         </div>
                     </div>
