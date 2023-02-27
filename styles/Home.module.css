@@ -650,6 +650,10 @@
   background-color: #f4f4f4;
 }
 
+/* End Team Page CSS */
+
+/* Begin Project Page CSS */
+
 .ProjectsSection {
   text-align: center;
   margin-left: 30px;
@@ -694,6 +698,10 @@
   line-height: 34px;
   margin-bottom: 5px;
 }
+
+/* End Project Page CSS */
+
+/* Begin Projects Page CSS */
 
 .IntroHeaderProjectOne {
   display: flex;
@@ -769,6 +777,10 @@
   margin-bottom: 30px;
 }
 
+/* End Projects Page CSS */
+
+/* Begin Blog Page CSS */
+
 .BlogSection {
   margin-left: 30px;
   margin-right: 30px;
@@ -802,3 +814,5 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* End Blog Page CSS */
