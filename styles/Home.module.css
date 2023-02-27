@@ -109,7 +109,7 @@
   line-height: 28px;
 }
 
-/*End Shared CSS*/
+/* End Shared CSS */
 
 /*Begin Nav CSS*/
 
@@ -349,15 +349,6 @@
   padding-bottom: 30px;
 }
 
-.footer {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.footerConentWrapper {
-  text-align: center;
-}
-
 .ctabutton {
   padding-left: 35px;
   padding-right: 35px;
@@ -372,6 +363,19 @@
 
 .ctabutton:hover {
   cursor: pointer;
+}
+
+/* End CTA CSS */
+
+/* Begin footer CSS */
+
+.footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footerConentWrapper {
+  text-align: center;
 }
 
 .privacypolicy {
@@ -389,6 +393,10 @@
   align-content: center;
   justify-content: center;
 }
+
+/* End footer CSS */
+
+/* Begin About Page CSS*/
 
 .aboutoheader {
   display: flex;
@@ -453,6 +461,10 @@
 .ServiceGridChildImg {
   width: 50px;
 }
+
+/* End About Page CSS*/
+
+/* Begin Contact Page CSS */
 
 .ContactGridContainer {
   margin-top: 100px;
@@ -593,6 +605,10 @@
   margin-bottom: 30px;
   background-color: #f4f4f4;
 }
+
+/* End Contact Page CSS */
+
+/* Begin Team Page CSS */
 
 .OurTeamSection {
   text-align: center;
