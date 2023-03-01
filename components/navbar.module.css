@@ -85,7 +85,31 @@
     }
 
     .NavigationItems {
-        display: none;
+        
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+
+        margin-left: 240px;
+        margin-right: 100px;
+        margin-top: 415px;
+
+        position: absolute;
+        text-align: center;
+
+    }
+
+    .NavigationItem {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        position: relative;
+
+        padding-left: 440px;
+        padding-right: 440px;
+
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .MenuImgDiv {
@@ -93,16 +117,9 @@
         background-color: white;
     }
 
-    .MenuImgDiv:active .NavigationItems {
-        background-color: aqua;
-        display: block;
-    }
-
     .MenuImg {
         display: block;
         height: 25px;
     }
-
-
 
 }
