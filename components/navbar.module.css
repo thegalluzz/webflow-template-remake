@@ -48,10 +48,10 @@
     padding-right: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
+    /*margin-right: 30px;*/
     background-color: black;
     border: none;
     color: white;
-    margin-right: 30px;
     font-family: Montserrat, sans-serif;
     letter-spacing: 1px;
 }
@@ -61,7 +61,48 @@
 }
 
 .NavLogo {
-    margin-left: 30px;
+    width: 100%;
+}
+
+.MenuImgDiv {
+    display: none;
+}
+
+.MenuImg {
+    display: none;
 }
 
 /*End Nav CSS*/
+
+@media screen and (max-width: 1024px) {
+
+    .Navbar {
+        background-color: white;
+    }
+
+    .MainButton {
+        display: none;
+    }
+
+    .NavigationItems {
+        display: none;
+    }
+
+    .MenuImgDiv {
+        display: block;
+        background-color: white;
+    }
+
+    .MenuImgDiv:active .NavigationItems {
+        background-color: aqua;
+        display: block;
+    }
+
+    .MenuImg {
+        display: block;
+        height: 25px;
+    }
+
+
+
+}

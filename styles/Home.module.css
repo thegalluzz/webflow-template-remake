@@ -155,7 +155,9 @@
 .navigationitem:hover {
   opacity: 100%;
 }
+*/
 
+/*This is the main button globally*/
 .mainbutton {
   padding-left: 30px;
   padding-right: 30px;
@@ -172,12 +174,12 @@
 .mainbutton:hover {
   cursor: pointer;
 }
-
+/*
 .navlogo {
   margin-left: 30px;
 }
 
- End Nav CSS*/
+End Nav CSS*/
 
 /* Begin index css */
 .headersection {

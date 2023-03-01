@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <nav className={styles.Navbar}>
             <div className={styles.NavbarWrapper}>
-                <Link href='/'><img src="/business-logo.png" alt="logo" className={styles.navlogo}/></Link>
+                <Link href='/'><img src="/business-logo.png" alt="logo" className={styles.NavLogo} /></Link>
                 <div className={styles.Menu}>
                     <div className={styles.NavigationItems}>
                         <Link href='/about' className={styles.NavigationItem}>ABOUT</Link>
@@ -16,6 +16,9 @@ export default function Navbar() {
                     </div>
                 </div>
                 <Link href='mailto:example@example.com'><button className={styles.MainButton} > CONTACT US </button></Link>
+                <div className={styles.MenuImgDiv}>
+                    <img src="/menu-icon.png" alt="logo" className={styles.MenuImg} />
+                </div>
             </div>
         </nav>
     )
