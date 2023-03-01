@@ -72,44 +72,28 @@
     display: none;
 }
 
+.NavigationItemsMobile{
+    display: none;
+}
+
+.NavigationItemMobile{
+    display: none;
+}
+
 /*End Nav CSS*/
 
 @media screen and (max-width: 1024px) {
-
-    .Navbar {
-        background-color: white;
-    }
 
     .MainButton {
         display: none;
     }
 
     .NavigationItems {
-        
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-
-        margin-left: 240px;
-        margin-right: 100px;
-        margin-top: 415px;
-
-        position: absolute;
-        text-align: center;
-
+        display: none;
     }
 
     .NavigationItem {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        position: relative;
-
-        padding-left: 440px;
-        padding-right: 440px;
-
-        padding-top: 15px;
-        padding-bottom: 15px;
+        display: none;
     }
 
     .MenuImgDiv {
@@ -120,6 +104,45 @@
     .MenuImg {
         display: block;
         height: 25px;
+    }
+
+    .NavigationItemsMobile{
+        display: none;
+    }
+
+    .NavigationItemsMobile{
+        display: block;
+        position: absolute;
+        background-color: white;
+
+        width: 99%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+    .NavigationItemMobile{
+        display: block;
+        text-align: center;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+
+        color: #1a1b1f;
+        opacity: 60%;
+        text-decoration-line: none;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        
     }
 
 }
