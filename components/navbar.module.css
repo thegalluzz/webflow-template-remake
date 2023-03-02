@@ -114,8 +114,7 @@
         display: block;
         position: absolute;
         background-color: white;
-
-        width: 99%;
+        width:98%;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -125,17 +124,12 @@
     .NavigationItemMobile{
         display: block;
         text-align: center;
-
         margin-left: auto;
         margin-right: auto;
-
         margin-top: 20px;
         margin-bottom: 20px;
-
         padding-top: 5px;
         padding-bottom: 5px;
-
-
         color: #1a1b1f;
         opacity: 60%;
         text-decoration-line: none;
