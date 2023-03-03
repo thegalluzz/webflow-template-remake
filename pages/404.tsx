@@ -1,5 +1,5 @@
-import styles from '../styles/Utilities.module.css'
 import Head from "next/head"
+import ForOFor from '@/components/for-o-for/for-o-for'
 
 export default function FourZeroFour() {
   return (
@@ -9,13 +9,7 @@ export default function FourZeroFour() {
         <link rel="icon" href="/favicon.ico" />
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
       </Head>
-      <div className={styles.ForOForDiv}>
-        <h1>Page Not Found</h1>
-        <p>The page you are looking for doesn't exist or has been moved.</p>
-        <a href='/'>
-          <button className={styles.ForOForButton}>GO BACK TO SAFETY</button>
-        </a>
-      </div>
+      <ForOFor />
     </>
   )
 }
