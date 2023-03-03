@@ -68,7 +68,7 @@ export default function Blog() {
                                 <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG} />
                                 <div className={styles.BlogDescription}>
                                     <div>
-                                        <h2 >7 of the Best Examples of Beautiful Blog Design</h2>
+                                        <h2 className="HeadingJumboSmall">7 of the Best Examples of Beautiful Blog Design</h2>
                                         <p className="ParagraphLight">
                                             Sit quam quae perferendis harum amet dolorum possimus minus.
                                             Occaecati magnam animi quasi dolor quae et aut.
