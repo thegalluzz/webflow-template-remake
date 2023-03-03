@@ -1,8 +1,8 @@
 import Head from "next/head"
 import styles from '@/styles/Home.module.css'
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
-import CallToAction from "@/components/cta"
+import Navbar from "@/components/navbar/navbar"
+import Footer from "@/components/footer/footer"
+import CallToAction from "@/components/call-to-action/cta"
 
 export default function Blog() {
     return (

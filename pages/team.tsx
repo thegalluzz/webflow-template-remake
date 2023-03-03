@@ -1,8 +1,8 @@
 import Head from "next/head"
-import Navbar from "@/components/navbar"
+import Navbar from "@/components/navbar/navbar"
 import styles from "@/styles/Home.module.css"
-import CallToAction from "@/components/cta"
-import Footer from "@/components/footer"
+import CallToAction from "@/components/call-to-action/cta"
+import Footer from "@/components/footer/footer"
 
 export default function Team() {
     return (

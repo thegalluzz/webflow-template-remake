@@ -2,9 +2,9 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import Navbar from '@/components/navbar'
-import CallToAction from '@/components/cta'
-import Footer from '@/components/footer'
+import Navbar from '@/components/navbar/navbar'
+import CallToAction from '@/components/call-to-action/cta'
+import Footer from '@/components/footer/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
@@ -46,7 +46,7 @@ export default function Home() {
                       Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper gravida tellus ut consequat.
                     </p>
                   </div>
-                  <Link href="/about"><button className={styles.mainbutton}>LEARN MORE</button></Link>
+                  <Link href="/about"><button className="MainButton">LEARN MORE</button></Link>
                 </div>
                 <img src='placeholder-3.svg' className={styles.gridchild} />
               </div>
@@ -61,7 +61,7 @@ export default function Home() {
                       Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper gravida tellus ut consequat.
                     </p>
                   </div>
-                  <Link href="/team"><button className={styles.mainbutton}>LEARN MORE</button></Link>
+                  <Link href="/team"><button className="MainButton">LEARN MORE</button></Link>
                 </div>
               </div>
             </div>
