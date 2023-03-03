@@ -83,7 +83,6 @@ export default function Contact() {
                         </div>
                         <div className={styles.OurServicesGrid}>
                             <div className={styles.OurServicesGridChild}>
-                                {/*<img src="/incons/Icon_1.svg" alt="photo" />*/}
                                 <div className={styles.OurServiceGridDiv} />
                                 <div>
                                     <p>Amanda Peterson</p>
@@ -96,7 +95,6 @@ export default function Contact() {
                                 </div>
                             </div>
                             <div className={styles.OurServicesGridChild}>
-                                {/*<img src="/incons/Icon_1.svg" alt="photo" />*/}
                                 <div className={styles.OurServiceGridDiv} />
                                 <div>
                                     <p>Jason Smith</p>
@@ -109,7 +107,6 @@ export default function Contact() {
                                 </div>
                             </div>
                             <div className={styles.OurServicesGridChild}>
-                                {/*<img src="/incons/Icon_1.svg" alt="photo" />*/}
                                 <div className={styles.OurServiceGridDiv} />
                                 <div>
                                     <p>Michael Fassbender</p>

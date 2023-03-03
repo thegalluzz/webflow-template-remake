@@ -30,7 +30,6 @@ export default function Team() {
                         <div className={styles.OurTeamGrid}>
                             <div>
                                 <div className={styles.TeamMemberPicture}>
-                                    {/*<img src="/incons/Icon_1.svg" alt="" />*/}
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Michael Fassbender</p>
@@ -39,7 +38,6 @@ export default function Team() {
                             </div>
                             <div>
                                 <div className={styles.TeamMemberPicture}>
-                                    {/*<img src="/incons/Icon_1.svg" alt="" />*/}
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Jason Smith</p>
@@ -48,7 +46,6 @@ export default function Team() {
                             </div>
                             <div>
                                 <div className={styles.TeamMemberPicture}>
-                                    {/*<img src="/incons/Icon_1.svg" alt="" />*/}
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Amanda Peterson</p>
@@ -57,7 +54,6 @@ export default function Team() {
                             </div>
                             <div>
                                 <div className={styles.TeamMemberPicture}>
-                                    {/*<img src="/incons/Icon_1.svg" alt="" />*/}
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Billy Maxwell</p>
@@ -66,7 +62,6 @@ export default function Team() {
                             </div>
                             <div>
                                 <div className={styles.TeamMemberPicture}>
-                                    {/*<img src="/incons/Icon_1.svg" alt="" />*/}
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Joshua Harris</p>
@@ -75,7 +70,6 @@ export default function Team() {
                             </div>
                             <div>
                                 <div className={styles.TeamMemberPicture}>
-                                    {/*<img src="/incons/Icon_1.svg" alt="" />*/}
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Esther Ford</p>
