@@ -18,7 +18,7 @@ export default function Navbar() {
                             <Link href='/contact' className={styles.NavigationItem}>CONTACT</Link>
                         </div>
                     </div>
-                    <Link href='mailto:example@example.com'><button className="MainButton" > CONTACT US </button></Link>
+                    <Link href='mailto:example@example.com'><button className={styles.NavbarButton} > CONTACT US </button></Link>
                     <div className={styles.MenuImgDiv} onClick={() => setNavigationItems(!navigationItems)}>
                         <img src="/menu-icon.png" alt="logo" className={styles.MenuImg} />
                     </div>

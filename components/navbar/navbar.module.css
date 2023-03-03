@@ -43,7 +43,7 @@
     opacity: 100%;
 }
 
-.MainButton {
+.NavbarButton {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px;
@@ -56,7 +56,7 @@
     letter-spacing: 1px;
 }
 
-.mainbutton:hover {
+.NavbarButton:hover {
     cursor: pointer;
 }
 
@@ -84,7 +84,7 @@
 
 @media screen and (max-width: 1024px) {
 
-    .MainButton {
+    .NavbarButton {
         display: none;
     }
 
