@@ -44,7 +44,6 @@ export default function Blog() {
                                     </div>
                                 </div>
                             </div>
-
                             <div className={styles.BlogDivCard}>
                                 <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG} />
                                 <div className={styles.BlogDescription}>
@@ -63,7 +62,6 @@ export default function Blog() {
                                     </div>
                                 </div>
                             </div>
-
                             <div className={styles.BlogDivCard}>
                                 <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG} />
                                 <div className={styles.BlogDescription}>
