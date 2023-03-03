@@ -25,6 +25,20 @@
     font-size: large;
 }
 
-.ForOForButton:hover{
+.ForOForButton:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .ForOForDiv {
+        margin: 10px;
+        height: 95vh;
+        font-size: small;
+    }
+    .ForOForButton {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
 }
