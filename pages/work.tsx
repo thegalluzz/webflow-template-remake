@@ -10,7 +10,7 @@ export default function Work() {
                 <link rel="icon" href="/favicon.ico" />
                 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
             </Head>
-            <main className={styles.main}>
+            <main className="Main">
                 <Navbar />
             </main>
         </>

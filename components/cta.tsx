@@ -8,8 +8,8 @@ export default function CallToAction() {
                 <div className={styles.ctaWrapper} >
                     <div>
                         <div className={styles.introtext}>
-                            <h2 className={styles.HeadingJumboSmall}>Grow your business.</h2>
-                            <p className={styles.ParagraphBiggerBlack}>
+                            <h2 className="HeadingJumboSmall"> Grow your business. </h2>
+                            <p className="ParagraphBiggerBlack">
                                 Today is the day to build the business of your dreams.
                                 Share your mission with the world — and blow your customers away.
                             </p>

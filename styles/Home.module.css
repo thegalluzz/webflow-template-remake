@@ -1,4 +1,4 @@
-/* Begin Shared CSS */
+/* Begin Shared CSS 
 
 .main {
   background-color: white;
@@ -109,7 +109,7 @@
   line-height: 28px;
 }
 
-/* End Shared CSS */
+End Shared CSS */
 
 /*Begin Nav CSS 
 
@@ -157,7 +157,8 @@
 }
 */
 
-/*This is the main button globally*/
+/* This is the main button globally */
+
 .mainbutton {
   padding-left: 30px;
   padding-right: 30px;
@@ -174,25 +175,40 @@
 .mainbutton:hover {
   cursor: pointer;
 }
+
 /*
 .navlogo {
   margin-left: 30px;
 }
 
-End Nav CSS*/
+End Nav CSS */
 
 /* Begin index css */
+
+/*
 .headersection {
   margin-left: 30px;
   margin-right: 30px;
 }
+*/
+
+/* Begin Home Page CSS*/
+
+.BusinessArticleHeading {
+  color: #1a1b1f;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 38px;
+}
+
 
 .introheader {
   display: flex;
   align-content: center;
   justify-content: center;
   width: auto;
-
   height: 620px;
   background-image: url("/portfolio2-wide.svg");
   margin-bottom: 100px;

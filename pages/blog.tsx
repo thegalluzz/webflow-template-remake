@@ -12,26 +12,26 @@ export default function Blog() {
                 <link rel="icon" href="/favicon.ico" />
                 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
             </Head>
-            <main className={styles.main}>
+            <main className="Main">
                 <Navbar />
-                <div className={styles.headersection}>
+                <div className="Section">
                     <div className={styles.aboutoheader}>
-                        <h1 className={styles.HeadingJumbo}>Our Blog</h1>
+                        <h1 className="HeadingJumbo">Our Blog</h1>
                     </div>
                 </div>
                 <section className={styles.BlogSection}>
                     <div className={styles.BlogContainer}>
                         <div>
                             <div className={styles.BlogTextDiv}>
-                                <p className={styles.Label}>APERIAM HARIUM</p>
-                                <h2 className={styles.HeadingJumboSmall}>Our Stories</h2>
+                                <p className="Label">APERIAM HARIUM</p>
+                                <h2 className="HeadingJumboSmall">Our Stories</h2>
                             </div>
                             <div className={styles.BlogDivCard}>
                                 <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG} />
                                 <div className={styles.BlogDescription}>
                                     <div>
-                                        <h2 className={styles.HeadingJumboSmall}>10 Quick Tips About Blogging</h2>
-                                        <p className={styles.ParagraphLight}>
+                                        <h2 className="HeadingJumboSmall">10 Quick Tips About Blogging</h2>
+                                        <p className="ParagraphLight">
                                             Sit quam quae perferendis harum amet dolorum possimus minus.
                                             Occaecati magnam animi quasi dolor quae et aut.
                                             Autem voluptas alias nobis in odit.
@@ -40,7 +40,7 @@ export default function Blog() {
                                             Sapiente non cumque quia facilis.
                                             Quo est odio culpa eaque sit ipsum mol
                                         </p>
-                                        <p className={styles.Label}>FEBRUARY 21, 2019</p>
+                                        <p className="Label">FEBRUARY 21, 2019</p>
                                     </div>
                                 </div>
                             </div>
@@ -49,8 +49,8 @@ export default function Blog() {
                                 <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG} />
                                 <div className={styles.BlogDescription}>
                                     <div>
-                                        <h2 className={styles.HeadingJumboSmall}>15 Best Blogs To Follow About Web Design</h2>
-                                        <p className={styles.ParagraphLight}>
+                                        <h2 className="HeadingJumboSmall">15 Best Blogs To Follow About Web Design</h2>
+                                        <p className="ParagraphLight">
                                             Sit quam quae perferendis harum amet dolorum possimus minus.
                                             Occaecati magnam animi quasi dolor quae et aut.
                                             Autem voluptas alias nobis in odit.
@@ -59,7 +59,7 @@ export default function Blog() {
                                             Sapiente non cumque quia facilis.
                                             Quo est odio culpa eaque sit ipsum mol
                                         </p>
-                                        <p className={styles.Label}>FEBRUARY 21, 2019</p>
+                                        <p className="Label">FEBRUARY 21, 2019</p>
                                     </div>
                                 </div>
                             </div>
@@ -68,8 +68,8 @@ export default function Blog() {
                                 <img src="/placeholder_1.svg" alt="" className={styles.PortfolioSVG} />
                                 <div className={styles.BlogDescription}>
                                     <div>
-                                        <h2 className={styles.HeadingJumboSmall}>7 of the Best Examples of Beautiful Blog Design</h2>
-                                        <p className={styles.ParagraphLight}>
+                                        <h2 >7 of the Best Examples of Beautiful Blog Design</h2>
+                                        <p className="ParagraphLight">
                                             Sit quam quae perferendis harum amet dolorum possimus minus.
                                             Occaecati magnam animi quasi dolor quae et aut.
                                             Autem voluptas alias nobis in odit.
@@ -78,7 +78,7 @@ export default function Blog() {
                                             Sapiente non cumque quia facilis.
                                             Quo est odio culpa eaque sit ipsum mol
                                         </p>
-                                        <p className={styles.Label}>FEBRUARY 21, 2019</p>
+                                        <p className="Label">FEBRUARY 21, 2019</p>
                                     </div>
                                 </div>
                             </div>

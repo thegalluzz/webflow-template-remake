@@ -12,20 +12,20 @@ export default function Projects() {
                 <link rel="icon" href="/favicon.ico" />
                 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
             </Head>
-            <main className={styles.main}>
+            <main className="Main">
                 <Navbar />
-                <section className={styles.headersection}>
+                <section className="Section">
                     <div className={styles.aboutoheader}>
                         <div>
-                            <h1 className={styles.HeadingJumbo}>Our work</h1>
+                            <h1 className="HeadingJumbo">Our work</h1>
                         </div>
                     </div>
                 </section>
                 <section className={styles.ProjectsSection}>
                     <div className={styles.ProjectsSectionContainer}>
                         <div className={styles.ProjectsSectionTitle}>
-                            <p className={styles.Label}>OUR WORK</p>
-                            <h2 className={styles.HeadingJumboSmall}>Team projects</h2>
+                            <p className="Label">OUR WORK</p>
+                            <h2 className="HeadingJumboSmall">Team projects</h2>
                         </div>
                         <div className={styles.ProjectsGrid}>
                             <div>
@@ -33,7 +33,7 @@ export default function Projects() {
                             </div>
                             <div>
                                 <p className={styles.ProjectTitle}>Project #1</p>
-                                <p className={styles.ParagraphLight}>Art direction</p>
+                                <p className="ParagraphLight">Art direction</p>
                             </div>
                         </div>
                         <div className={styles.ProjectsGrid}>
@@ -42,7 +42,7 @@ export default function Projects() {
                             </div>
                             <div>
                                 <p className={styles.ProjectTitle}>Project #2</p>
-                                <p className={styles.ParagraphLight}>Product Design</p>
+                                <p className="ParagraphLight">Product Design</p>
                             </div>
                         </div>
                         <div className={styles.ProjectsGrid}>
@@ -51,7 +51,7 @@ export default function Projects() {
                             </div>
                             <div>
                                 <p className={styles.ProjectTitle}>Project #3</p>
-                                <p className={styles.ParagraphLight}>Animation</p>
+                                <p className="ParagraphLight">Animation</p>
                             </div>
                         </div>
                     </div>

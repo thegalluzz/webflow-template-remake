@@ -12,20 +12,20 @@ export default function Team() {
                 <link rel="icon" href="/favicon.ico" />
                 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
             </Head>
-            <main className={styles.main}>
+            <main className="Main">
                 <Navbar />
-                <section className={styles.headersection}>
+                <section className="Section">
                     <div className={styles.aboutoheader}>
                         <div>
-                            <h1 className={styles.HeadingJumbo}>Team</h1>
+                            <h1 className="HeadingJumbo">Team</h1>
                         </div>
                     </div>
                 </section>
                 <section className={styles.OurTeamSection}>
                     <div className={styles.OurTeamSectionContainer}>
                         <div className={styles.OurTeamGridTitle}>
-                            <p className={styles.Label}>OUR PEOPLE</p>
-                            <h2  className={styles.HeadingJumboSmall}>Our world-class team</h2>
+                            <p className="Label">OUR PEOPLE</p>
+                            <h2  className="HeadingJumboSmall">Our world-class team</h2>
                         </div>
                         <div className={styles.OurTeamGrid}>
                             <div>
@@ -34,7 +34,7 @@ export default function Team() {
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Michael Fassbender</p>
-                                    <p className={styles.ParagraphLight}>CEO</p>
+                                    <p className="ParagraphLight">CEO</p>
                                 </div>
                             </div>
                             <div>
@@ -43,7 +43,7 @@ export default function Team() {
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Jason Smith</p>
-                                    <p className={styles.ParagraphLight}>Product Designer</p>
+                                    <p className="ParagraphLight">Product Designer</p>
                                 </div>
                             </div>
                             <div>
@@ -52,7 +52,7 @@ export default function Team() {
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Amanda Peterson</p>
-                                    <p className={styles.ParagraphLight}>Design Director</p>
+                                    <p className="ParagraphLight">Design Director</p>
                                 </div>
                             </div>
                             <div>
@@ -61,7 +61,7 @@ export default function Team() {
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Billy Maxwell</p>
-                                    <p className={styles.ParagraphLight}>Lead Developer</p>
+                                    <p className="ParagraphLight">Lead Developer</p>
                                 </div>
                             </div>
                             <div>
@@ -70,7 +70,7 @@ export default function Team() {
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Joshua Harris</p>
-                                    <p className={styles.ParagraphLight}>CTO</p>
+                                    <p className="ParagraphLight">CTO</p>
                                 </div>
                             </div>
                             <div>
@@ -79,7 +79,7 @@ export default function Team() {
                                 </div>
                                 <div className={styles.OurTeamGridChildText}>
                                     <p>Esther Ford</p>
-                                    <p className={styles.ParagraphLight}>Recruiter</p>
+                                    <p className="ParagraphLight">Recruiter</p>
                                 </div>
                             </div>
                         </div>

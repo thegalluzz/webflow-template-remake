@@ -12,12 +12,12 @@ export default function Contact() {
                 <link rel="icon" href="/favicon.ico" />
                 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
             </Head>
-            <main className={styles.main}>
+            <main className="Main">
                 <Navbar />
-                <section className={styles.headersection}>
+                <section className="Section">
                     <div className={styles.aboutoheader}>
                         <div>
-                            <h1 className={styles.HeadingJumbo}>Contact Us</h1>
+                            <h1 className="HeadingJumbo">Contact Us</h1>
                         </div>
                     </div>
                 </section>
@@ -26,8 +26,8 @@ export default function Contact() {
                         <div className={styles.contactusgrid}>
                             <div className={styles.contacusformwrap}>
                                 <div className={styles.contactustextdiv}>
-                                    <h2 className={styles.HeadingJumboSmall}>Contact us</h2>
-                                    <p className={styles.ParagraphLight}>
+                                    <h2 className="HeadingJumboSmall">Contact us</h2>
+                                    <p className="ParagraphLight">
                                         Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
                                         One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
                                     </p>
@@ -48,23 +48,23 @@ export default function Contact() {
                             </div>
                             <div>
                                 <div>
-                                    <p className={styles.LabelDark}>OUR OFFICES</p>
-                                    <p className={styles.ParagraphLight}>
+                                    <p className="LabelDark">OUR OFFICES</p>
+                                    <p className="ParagraphLight">
                                         Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
                                     </p>
                                 </div>
                                 <div>
-                                    <p className={styles.LabelDark}>OUR OFFICE</p>
-                                    <p className={styles.ParagraphLight}>908 Broadway, San Francisco,CA 94133</p>
+                                    <p className="LabelDark">OUR OFFICE</p>
+                                    <p className="ParagraphLight">908 Broadway, San Francisco,CA 94133</p>
                                 </div>
                                 <div>
-                                    <p className={styles.LabelDark}>WORKING HOURS</p>
-                                    <p className={styles.ParagraphLight}>9AM - 3PM, Mon to Fri</p>
+                                    <p className="LabelDark">WORKING HOURS</p>
+                                    <p className="ParagraphLight">9AM - 3PM, Mon to Fri</p>
                                 </div>
                                 <div>
-                                    <p className={styles.LabelDark}>CONTACT</p>
-                                    <a href="" className={styles.ParagraphLight}>contact@business.com</a>
-                                    <p className={styles.ParagraphLight}>01 (650) 658 6822</p>
+                                    <p className="LabelDark">CONTACT</p>
+                                    <a href="" className="ParagraphLight">contact@business.com</a>
+                                    <p className="ParagraphLight">01 (650) 658 6822</p>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ export default function Contact() {
                     <div className={styles.OurServicesContainer}>
                         <div>
                             <p>WHAT ARE WE BEST AT</p>
-                            <h2 className={styles.HeadingJumboSmall}>Our Services</h2>
+                            <h2 className="HeadingJumboSmall">Our Services</h2>
                         </div>
                         <div className={styles.OurServicesGrid}>
                             <div className={styles.OurServicesGridChild}>
@@ -87,12 +87,12 @@ export default function Contact() {
                                 <div className={styles.OurServiceGridDiv} />
                                 <div>
                                     <p>Amanda Peterson</p>
-                                    <p className={styles.ParagraphLight}>CEO</p>
+                                    <p className="ParagraphLight">CEO</p>
                                 </div>
                                 <div className={styles.DividerGrid}></div>
                                 <div>
-                                    <p className={styles.ParagraphLight}>ceo@business.com</p>
-                                    <p className={styles.ParagraphLight}>01 (650) 658 6823</p>
+                                    <p className="ParagraphLight">ceo@business.com</p>
+                                    <p className="ParagraphLight">01 (650) 658 6823</p>
                                 </div>
                             </div>
                             <div className={styles.OurServicesGridChild}>
@@ -100,12 +100,12 @@ export default function Contact() {
                                 <div className={styles.OurServiceGridDiv} />
                                 <div>
                                     <p>Jason Smith</p>
-                                    <p className={styles.ParagraphLight}>CTO</p>
+                                    <p className="ParagraphLight">CTO</p>
                                 </div>
                                 <div className={styles.DividerGrid}></div>
                                 <div>
-                                    <p className={styles.ParagraphLight}>cto@business.com</p>
-                                    <p className={styles.ParagraphLight}>01 (650) 658 6824</p>
+                                    <p className="ParagraphLight">cto@business.com</p>
+                                    <p className="ParagraphLight">01 (650) 658 6824</p>
                                 </div>
                             </div>
                             <div className={styles.OurServicesGridChild}>
@@ -113,12 +113,12 @@ export default function Contact() {
                                 <div className={styles.OurServiceGridDiv} />
                                 <div>
                                     <p>Michael Fassbender</p>
-                                    <p className={styles.ParagraphLight}>Design Director</p>
+                                    <p className="ParagraphLight">Design Director</p>
                                 </div>
                                 <div className={styles.DividerGrid}></div>
                                 <div>
-                                    <p className={styles.ParagraphLight}>cto@business.com</p>
-                                    <p className={styles.ParagraphLight}>01 (650) 658 6824</p>
+                                    <p className="ParagraphLight">cto@business.com</p>
+                                    <p className="ParagraphLight">01 (650) 658 6824</p>
                                 </div>
                             </div>
                         </div>
