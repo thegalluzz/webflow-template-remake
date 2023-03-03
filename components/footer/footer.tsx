@@ -1,10 +1,10 @@
-import styles from '@/styles/Home.module.css'
+import styles from './footer.module.css'
 
 export default function Footer() {
     return (
-        <footer className={styles.footer}>
-            <div className={styles.footerConentWrapper}>
-                <a className={styles.privacypolicy} href='privacy-policy'>Privacy Policy</a>
+        <footer className={styles.Footer}>
+            <div className={styles.FooterConentWrapper}>
+                <a className={styles.PrivacyPolicy} href='privacy-policy'>Privacy Policy</a>
             </div>
         </footer>
     )
