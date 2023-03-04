@@ -118,3 +118,12 @@ body {
 .MainButton:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  
+  .Section{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+}

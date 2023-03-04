@@ -138,6 +138,10 @@
   padding: 30px;
 }
 
+@media screen and (max-width: 1024px) {
+  
+}
+
 /* End Home Page css */
 
 /* Begin About Page CSS*/
