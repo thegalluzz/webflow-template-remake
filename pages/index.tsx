@@ -48,10 +48,10 @@ export default function Home() {
                   </div>
                   <Link href="/about"><button className="MainButton">LEARN MORE</button></Link>
                 </div>
-                <img src='placeholder-3.svg' className={styles.gridchild} />
+                <img src='placeholder-3.svg' className={styles.gridchildimage} />
               </div>
               <div className={styles.aboutgrid2}>
-                <img src='placeholder_1.svg' className={styles.gridchild} />
+                <img src='placeholder_1.svg' className={styles.gridchildimage} />
                 <div className={styles.gridchild}>
                   <div className={styles.HomeSectionWarap}>
                     <p className="Label">TEAM</p>

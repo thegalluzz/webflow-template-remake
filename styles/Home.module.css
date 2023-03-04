@@ -105,6 +105,11 @@
   width: 100%;
 }
 
+.gridchildimage {
+  text-align: left;
+  width: 100%;
+}
+
 .HomeSectionWarap {
   margin-bottom: 30px;
 }
@@ -127,19 +132,59 @@
 }
 
 .collectionwrapper {
-  display: flex;
-  justify-content: center;
-  align-content: flex-start;
-  margin-left: 300px;
-  margin-right: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .colelctionblog {
   padding: 30px;
 }
 
-@media screen and (max-width: 1024px) {
-  
+@media screen and (max-width: 991px) {
+
+  .aboutgrid,
+  .aboutgrid2 {
+    grid-template-columns: 1fr;
+  }
+
+  .gridchildimage {
+    order: 1;
+  }
+
+  .gridchild {
+    order: 2;
+    text-align: center;
+  }
+
+  .collectionwrapper {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .introcontent {
+    margin-top: 140px;
+    width: 70%;
+  }
+
+  .introtext {
+    width: 70%;
+  }
+
+  .collectionwrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 478px) {
 }
 
 /* End Home Page css */

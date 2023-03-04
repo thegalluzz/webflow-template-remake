@@ -119,11 +119,61 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1024px) {
-  
-  .Section{
+@media screen and (max-width: 991px) {
+  .HeadingJumbo {
+    font-size: 56px;
+  }
+
+  .HeadingJumboBlack {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Section {
     margin-left: 15px;
     margin-right: 15px;
   }
 
+  .HeadingJumbo {
+    font-size: 50px;
+  }
+
+  .HeadingJumboBlack {
+    font-size: 50px;
+  }
+
+  .ParagraphBigger {
+    font-size: 16px;
+  }
+
+  .ParagraphBiggerBlack {
+    font-size: 16px;
+  }
+
+  .HeadingJumboSmall {
+    font-size: 30px;
+  }
+
+  .HeadingJumboSmallWhite {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .HeadingJumbo {
+    font-size: 36px;
+  }
+
+  .HeadingJumboBlack {
+    font-size: 36px;
+  }
+
+  .ParagraphBigger {
+    font-size: 16px;
+  }
+
+  .ParagraphBiggerBlack {
+    font-size: 16px;
+  }
 }
