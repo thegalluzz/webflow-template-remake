@@ -144,12 +144,11 @@
 }
 
 @media screen and (max-width: 991px) {
-
   .introcontent {
     margin-top: 160px;
     width: 80%;
   }
-  
+
   .introtext {
     width: 80%;
   }
@@ -175,16 +174,14 @@
     flex-direction: column;
     text-align: center;
   }
-
 }
 
 @media screen and (max-width: 767px) {
-
   .introcontent {
     margin-top: 180px;
     width: 90%;
   }
-  
+
   .introtext {
     width: 90%;
   }
@@ -192,11 +189,6 @@
   .collectionwrapper {
     width: 90%;
   }
-}
-
-@media screen and (max-width: 478px) {
-
-
 }
 
 /* End Home Page css */
@@ -265,6 +257,35 @@
 
 .ServiceGridChildImg {
   width: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .servicsegrid {
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .aboutcontainer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .aboutcontainer {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .servicsegrid {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 478px) {
+  .aboutcontainer {
+    width: 95%;
+  }
 }
 
 /* End About Page CSS*/
