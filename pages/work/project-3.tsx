@@ -14,7 +14,7 @@ export default function ProjectThree() {
             </Head>
             <main className="Main">
                 <Navbar />
-                <section className={styles.headersection}>
+                <section className="Section">
                     <div className={styles.IntroHeaderProjectThree}>
                         <div className={styles.IntroContentProject}>
                             <div className={styles.IntroTextProject}>
@@ -23,7 +23,7 @@ export default function ProjectThree() {
                         </div>
                     </div>
                 </section>
-                <section className={styles.ProjectDescritionSection}>
+                <section className="Section">
                     <div className={styles.ProjectDescritionContainer}>
                         <div className={styles.ProjectDescritionGrid}>
                             <div>
