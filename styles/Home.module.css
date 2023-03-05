@@ -145,6 +145,15 @@
 
 @media screen and (max-width: 991px) {
 
+  .introcontent {
+    margin-top: 160px;
+    width: 80%;
+  }
+  
+  .introtext {
+    width: 80%;
+  }
+
   .aboutgrid,
   .aboutgrid2 {
     grid-template-columns: 1fr;
@@ -170,13 +179,14 @@
 }
 
 @media screen and (max-width: 767px) {
-  .introcontent {
-    margin-top: 140px;
-    width: 70%;
-  }
 
+  .introcontent {
+    margin-top: 180px;
+    width: 90%;
+  }
+  
   .introtext {
-    width: 70%;
+    width: 90%;
   }
 
   .collectionwrapper {
@@ -185,6 +195,8 @@
 }
 
 @media screen and (max-width: 478px) {
+
+
 }
 
 /* End Home Page css */

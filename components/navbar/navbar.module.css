@@ -1,142 +1,163 @@
 /*Begin Nav CSS*/
 
 .Navbar {
-    background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .NavbarWrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .Menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .NavigationItems {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .NavigationItem {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 9px;
-    margin-bottom: 9px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  color: #1a1b1f;
+  opacity: 60%;
+  text-decoration-line: none;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.NavigationItem:hover {
+  opacity: 100%;
+}
+
+.NavbarButton {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /*margin-right: 30px;*/
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 1px;
+}
+
+.NavbarButton:hover {
+  cursor: pointer;
+}
+
+.NavLogo {
+  width: 100%;
+}
+
+.MenuImgDiv {
+  display: none;
+}
+
+.MenuImg {
+  display: none;
+}
+
+.NavigationItemsMobile {
+  display: none;
+}
+
+.NavigationItemMobile {
+  display: none;
+}
+
+/*End Nav CSS*/
+
+@media screen and (max-width: 991px) {
+  .NavbarButton {
+    display: none;
+  }
+
+  .NavigationItems {
+    display: none;
+  }
+
+  .NavigationItem {
+    display: none;
+  }
+
+  .MenuImgDiv {
+    display: block;
+    background-color: white;
+  }
+
+  .MenuImg {
+    display: block;
+    height: 20px;
+  }
+
+  .NavigationItemsMobile {
+    display: none;
+  }
+
+  .NavigationItemsMobile {
+    display: block;
+    position: absolute;
+    background-color: white;
+    width: 98%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .NavigationItemMobile {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: #1a1b1f;
     opacity: 60%;
     text-decoration-line: none;
     font-size: 13px;
     font-weight: 500;
     letter-spacing: 1px;
+  }
 }
 
-.NavigationItem:hover {
-    opacity: 100%;
+@media screen and (max-width: 768px) {
+    .Navbar {
+        padding-left: 30px;
+        padding-right: 35px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+      }
 }
-
-.NavbarButton {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    /*margin-right: 30px;*/
-    background-color: black;
-    border: none;
-    color: white;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 1px;
-}
-
-.NavbarButton:hover {
-    cursor: pointer;
-}
-
-.NavLogo {
-    width: 100%;
-}
-
-.MenuImgDiv {
-    display: none;
-}
-
-.MenuImg {
-    display: none;
-}
-
-.NavigationItemsMobile{
-    display: none;
-}
-
-.NavigationItemMobile{
-    display: none;
-}
-
-/*End Nav CSS*/
-
-@media screen and (max-width: 1024px) {
-
-    .NavbarButton {
-        display: none;
-    }
-
-    .NavigationItems {
-        display: none;
-    }
-
-    .NavigationItem {
-        display: none;
-    }
-
-    .MenuImgDiv {
-        display: block;
-        background-color: white;
-    }
-
-    .MenuImg {
-        display: block;
-        height: 25px;
-    }
-
-    .NavigationItemsMobile{
-        display: none;
-    }
-
-    .NavigationItemsMobile{
-        display: block;
-        position: absolute;
-        background-color: white;
-        width:98%;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+@media screen and (max-width: 478px) {
+    .NavLogo{
+        width: 80%;
 
     }
-    
-    .NavigationItemMobile{
-        display: block;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        color: #1a1b1f;
-        opacity: 60%;
-        text-decoration-line: none;
-        font-size: 13px;
-        font-weight: 500;
-        letter-spacing: 1px;
-        
+    .MenuImg{
+        height: 18px;
     }
+    .Navbar {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
 
 }
