@@ -12,9 +12,9 @@ export default function ProjectTwo() {
                 <link rel="icon" href="/favicon.ico" />
                 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
             </Head>
-            <main className={styles.main}>
+            <main className="Main">
                 <Navbar />
-                <section className={styles.headersection}>
+                <section className="Section">
                     <div className={styles.IntroHeaderProjectTwo}>
                         <div className={styles.IntroContentProject}>
                             <div className={styles.IntroTextProject}>
@@ -23,29 +23,29 @@ export default function ProjectTwo() {
                         </div>
                     </div>
                 </section>
-                <section className={styles.ProjectDescritionSection}>
+                <section className="Section">
                     <div className={styles.ProjectDescritionContainer}>
                         <div className={styles.ProjectDescritionGrid}>
                             <div>
                                 <div>
-                                    <p className={styles.LabelDark}>DESCRIPTION</p>
-                                    <p className={styles.ParagraphLight}>
+                                    <p className="LabelDark">DESCRIPTION</p>
+                                    <p className="ParagraphLight">
                                         Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                                         Separated they live in Bookmarksgrove right at the coast.
                                     </p>
                                 </div>
                                 <div>
-                                    <p className={styles.LabelDark}>WHEN</p>
-                                    <p className={styles.ParagraphLight}>January 2017</p>
+                                    <p className="LabelDark">WHEN</p>
+                                    <p className="ParagraphLight">January 2017</p>
                                 </div>
                                 <div>
-                                    <p className={styles.LabelDark}>WHO</p>
-                                    <p className={styles.ParagraphLight}>
+                                    <p className="LabelDark">WHO</p>
+                                    <p className="ParagraphLight">
                                         Jason Davis, John Anderson, Mirco Cattabriga, Aaron Jones, Amanda Johnson, Steve McQueen
                                     </p>
                                 </div>
                             </div>
-                            <p className={styles.ParagraphLight}>
+                            <p className="ParagraphLight">
                                 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                                 Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
                                 A small river named Duden flows by their place and supplies it with the necessary regelialia.

@@ -19,7 +19,7 @@ export default function Blog() {
                         <h1 className="HeadingJumbo">Our Blog</h1>
                     </div>
                 </div>
-                <section className={styles.BlogSection}>
+                <section className="Section">
                     <div className={styles.BlogContainer}>
                         <div>
                             <div className={styles.BlogTextDiv}>

@@ -21,7 +21,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </section>
-                <section className={styles.ProjectsSection}>
+                <section className="Section">
                     <div className={styles.ProjectsSectionContainer}>
                         <div className={styles.ProjectsSectionTitle}>
                             <p className="Label">OUR WORK</p>
