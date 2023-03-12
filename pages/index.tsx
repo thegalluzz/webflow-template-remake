@@ -25,7 +25,7 @@ export default function Home() {
               <div className={styles.introtext}>
                 <h1 className="HeadingJumbo">Grow your business.</h1>
                 <p className="ParagraphBigger">Give your business a boost with a beautifully crafted homepage.</p>
-                <Link href="/about"><button className={styles.headingbutton}>LEARN MORE</button></Link>
+                <Link href="/about"><button className={styles.headingbutton}>ABOUT US</button></Link>
               </div>
             </div>
           </div>
@@ -46,12 +46,12 @@ export default function Home() {
                       Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper gravida tellus ut consequat.
                     </p>
                   </div>
-                  <Link href="/about"><button className="MainButton">LEARN MORE</button></Link>
+                  <Link href="/about"><button className="MainButton">ABOUT US</button></Link>
                 </div>
-                <img src='placeholder-3.svg' className={styles.gridchildimage} />
+                <img src='placeholder-3.svg' className={styles.gridchildimage} alt='about us image' />
               </div>
               <div className={styles.aboutgrid2}>
-                <img src='placeholder_1.svg' className={styles.gridchildimage} />
+                <img src='placeholder_1.svg' className={styles.gridchildimage} alt='about the team image'/>
                 <div className={styles.gridchild}>
                   <div className={styles.HomeSectionWarap}>
                     <p className="Label">TEAM</p>
@@ -61,7 +61,7 @@ export default function Home() {
                       Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper gravida tellus ut consequat.
                     </p>
                   </div>
-                  <Link href="/team"><button className="MainButton">LEARN MORE</button></Link>
+                  <Link href="/team"><button className="MainButton">ABOUT THE TEAM</button></Link>
                 </div>
               </div>
             </div>
