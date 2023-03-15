@@ -8,7 +8,7 @@ export default function Navbar() {
         <>
             <nav className={styles.Navbar}>
                 <div className={styles.NavbarWrapper}>
-                    <Link href='/'><img src="/business-logo.png" alt="logo" className={styles.NavLogo} /></Link>
+                    <Link href='/'><img src="/business-logo.png" alt="Logo" className={styles.NavLogo} /></Link>
                     <div className={styles.Menu}>
                         <div className={styles.NavigationItems}>
                             <Link href='/about' className={styles.NavigationItem}>ABOUT</Link>
@@ -20,7 +20,7 @@ export default function Navbar() {
                     </div>
                     <Link href='mailto:example@example.com'><button className={styles.NavbarButton} > CONTACT US </button></Link>
                     <div className={styles.MenuImgDiv} onClick={() => setNavigationItems(!navigationItems)}>
-                        <img src="/menu-icon.png" alt="logo" className={styles.MenuImg} />
+                        <img src="/menu-icon.png" alt="menu logo" className={styles.MenuImg} />
                     </div>
                 </div>
             </nav>
