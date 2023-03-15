@@ -803,3 +803,13 @@
 }
 
 /* End Blog Page CSS */
+
+/* Privacy Policy */
+.PrivacyPolicySection {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+/* End Privacy Policy */
