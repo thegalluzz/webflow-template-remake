@@ -1,3 +1,47 @@
+/* Fonts */
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 300;
+  src: url(../fonts/montserrat-v25-latin-300.woff2) format("woff2"),
+    url(../fonts/montserrat-v25-latin-300.woff) format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  src: url(../fonts/montserrat-v25-latin-regular.woff2) format("woff2"),
+    url(../fonts/montserrat-v25-latin-regular.woff) format("woff");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url(../fonts/montserrat-v25-latin-500.woff2) format("woff2"),
+    url(../fonts/montserrat-v25-latin-500.woff) format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  src: url(../fonts/montserrat-v25-latin-600.woff2) format("woff2"),
+    url(../fonts/montserrat-v25-latin-600.woff) format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: url(../fonts/montserrat-v25-latin-700.woff2) format("woff2"),
+    url(../fonts/montserrat-v25-latin-700.woff) format("woff");
+  font-display: swap;
+}
+
+/* END Fonts */
+
 body {
   font-family: Montserrat, sans-serif;
 }

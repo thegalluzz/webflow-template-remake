@@ -108,6 +108,7 @@
 .gridchildimage {
   text-align: left;
   width: 100%;
+  height: fit-content;
 }
 
 .HomeSectionWarap {
