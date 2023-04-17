@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 import Navbar from "@/components/navbar/navbar"
 import CallToAction from "@/components/call-to-action/call-to-action"
 import Footer from "@/components/footer/footer"
+import Link from "next/link"
 
 export default function Projects() {
     return (
@@ -29,7 +30,7 @@ export default function Projects() {
                         </div>
                         <div className={styles.ProjectsGrid}>
                             <div>
-                                <a href="/work/project-1"><img src="/portfolio/portfolio1.svg" alt="Portfolio 1" className={styles.PortfolioSVG} /></a>
+                                <Link href="/work/project-1"><img src="/portfolio/portfolio1.svg" alt="Portfolio 1" className={styles.PortfolioSVG} /></Link>
                             </div>
                             <div>
                                 <p className={styles.ProjectTitle}>Project #1</p>
@@ -38,7 +39,7 @@ export default function Projects() {
                         </div>
                         <div className={styles.ProjectsGrid}>
                             <div>
-                                <a href="/work/project-2"><img src="/portfolio/portfolio1.svg" alt="Portfolio 1" className={styles.PortfolioSVG} /></a>
+                                <Link href="/work/project-2"><img src="/portfolio/portfolio1.svg" alt="Portfolio 1" className={styles.PortfolioSVG} /></Link>
                             </div>
                             <div>
                                 <p className={styles.ProjectTitle}>Project #2</p>

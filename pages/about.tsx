@@ -24,7 +24,7 @@ export default function About() {
                     <div className={styles.aboutcontainer}>
                         <div className={styles.mottowrap}>
                             <h1 className="HeadingJumboSmall">
-                                We're a group of creative thinkers who have built a business to change the world.
+                                We&apos;re a group of creative thinkers who have built a business to change the world.
                             </h1>
                         </div>
                         <div className={styles.divider}></div>
@@ -39,7 +39,7 @@ export default function About() {
                                 Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
                                 One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
                                 The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli,
-                                but the Little Blind Text didn't listen.
+                                but the Little Blind Text didn&apos;t listen.
                             </p>
                             <p className="ParagraphLight">
                                 She packed her seven versalia, put her initial into the belt and made herself on the way.
