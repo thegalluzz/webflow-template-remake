@@ -1,5 +1,5 @@
-import Link from "next/link"
 import styles from "./for-o-for.module.css"
+import Link from "next/link"
 
 export default function ForOFor(){
     return(
