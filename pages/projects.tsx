@@ -48,7 +48,7 @@ export default function Projects() {
                         </div>
                         <div className={styles.ProjectsGrid}>
                             <div>
-                                <a href="/work/project-3"><img src="/portfolio/portfolio1.svg" alt="Portfolio 1" className={styles.PortfolioSVG} /></a>
+                                <Link href="/work/project-3"><img src="/portfolio/portfolio1.svg" alt="Portfolio 1" className={styles.PortfolioSVG} /></Link>
                             </div>
                             <div>
                                 <p className={styles.ProjectTitle}>Project #3</p>
