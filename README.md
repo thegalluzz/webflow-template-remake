@@ -6,6 +6,7 @@ As an "omage" to webflow I decided to remake their classic template to get famil
 
 I'm planning on adding more features to make it a more complete webapp template.
 
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
