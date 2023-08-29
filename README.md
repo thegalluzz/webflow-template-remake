@@ -1,8 +1,12 @@
 ## Introduction
 
-I used webflow a few times in the past. I thought reimplementing the classic webflow business template and adding some features would be a fun exercise to play around with Nex.js
+When the first agency I worked at needed a tool to ship good website fast, I cam across webflow. It allowed us to make many good projects.
 
-------------
+As an "omage" to webflow I decided to remake their classic template to get familiar with Next.js, I already used this in production for 2 companies.
+
+I'm planning on adding more features to make it a more complete webapp template.
+
+---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
