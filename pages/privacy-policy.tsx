@@ -8,7 +8,7 @@ export default function Privacy() {
             <section className={styles.PrivacyPolicySection}>
                 <div>
                     <h1>Privacy Policy</h1>
-                    <p>bababui</p>
+                    <p>INSERT PRIVACY POLICY</p>
                 </div>
             </section>
         </>
