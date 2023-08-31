@@ -6,7 +6,6 @@ import Navbar from '@/components/navbar/navbar'
 import CallToAction from '@/components/call-to-action/call-to-action'
 import Footer from '@/components/footer/footer'
 
-const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
