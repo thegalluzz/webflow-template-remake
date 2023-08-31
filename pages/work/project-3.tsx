@@ -8,6 +8,8 @@ export default function ProjectThree() {
     return (
         <>
             <Head>
+                <title>Project 3</title>
+                <meta name="description" content="Here is our third project" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
                 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />

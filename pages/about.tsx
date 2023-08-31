@@ -9,6 +9,8 @@ export default function About() {
     return (
         <>
             <Head>
+                <title>About our Business</title>
+                <meta name="description" content="This is how we got started and our values" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

@@ -9,6 +9,8 @@ export default function Projects() {
     return (
         <>
             <Head>
+                <title>Projects Page</title>
+                <meta name="description" content="Learn more about our Projects" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

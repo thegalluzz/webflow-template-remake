@@ -8,6 +8,8 @@ export default function Team() {
     return (
         <>
             <Head>
+                <title>Team</title>
+                <meta name="description" content="Here is our team" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

@@ -8,6 +8,8 @@ export default function Blog() {
     return (
         <>
             <Head>
+                <title>Blog</title>
+                <meta name="description" content="Read our latest blogs" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
