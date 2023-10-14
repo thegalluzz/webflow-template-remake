@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/navbar/navbar'
 import CallToAction from '@/components/call-to-action/call-to-action'
