@@ -4,7 +4,7 @@ When the first agency I worked at needed a tool to ship good website fast, I cam
 
 I needed a quick template for some projects, as an "omage" to webflow I decided to remake their classic business template with Next.js (page router).
 
-Will add features if I need them, feel free to use it.
+Will add features if I need them.
 
 ---
 
