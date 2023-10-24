@@ -1,11 +1,10 @@
 ## Introduction
 
-When the first agency I worked at needed a tool to ship good website fast, I cam across webflow. It allowed us to make many good projects.
+When the first agency I worked at needed a tool to ship good website fast, I came across webflow. It allowed to ship good looking websites faster than anything else at the time (This was in 2020).
 
-As an "omage" to webflow I decided to remake their classic template to get familiar with Next.js, I already used this in production for 2 companies.
+I needed a quick template for some projects, as an "omage" to webflow I decided to remake their classic business template with Next.js (page router).
 
-I'm planning on adding more features to make it a more complete webapp template.
-
+Will add features if I need them.
 
 ---
 
